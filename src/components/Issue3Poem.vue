@@ -3,22 +3,25 @@
 </template>
 
 <style>
-#issue3--poem > div > button{
-  border: none;
-  border-bottom: 1px dotted rgba(200,40,20, 0.6);
-  background: none;
-}
-@media screen and (min-width: 60rem){
-  #issue3--poem{
-    width: 550px;
-    position: relative;
-    margin: 0 auto;
-  }
+#issue3--poem {
+  width: 100%;
+  position: relative;
 }
 
+#issue3--poem > div > button {
+  border: none;
+  border-bottom: 1px dotted #ff3b30;
+  background: none;
+  cursor: pointer;
+}
+
+#issue3--poem > div > button:hover {
+  background: rgba(255, 59, 48, 0.12);
+}
 </style>
 
 <script>
+import { imageUrl } from '@/images'
 export default{
   mounted () {
     var synth = window.speechSynthesis
@@ -50,7 +53,7 @@ export default{
 
     function addImg (url, parent) {
       let img = document.createElement('img')
-      img.setAttribute('src', '/images/compressed/1200/' + url)
+      img.setAttribute('src', imageUrl(url, 1200))
       img.style.maxWidth = '100%'
       img.style.position = 'relative'
       parent.appendChild(img)

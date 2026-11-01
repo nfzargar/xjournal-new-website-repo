@@ -1,75 +1,78 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import IssuesPage from './views/IssuesPage.vue'
-import IssuePage from './views/IssuePage.vue'
-import ArtistsPage from './views/ArtistsPage.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 import SubmissionPage from './views/SubmissionPage.vue'
 import DocumentationGuidePage from './views/DocumentationGuidePage.vue'
+import sourceData from './data'
 
-Vue.use(Router)
+// Old per-issue artwork URLs pointed at the nth artwork of an issue (in data.json order).
+// Resolve that to the artwork's pageNumber so the volume viewer can open on it.
+const pageOfNthArtwork = (issueId, n) => {
+  const art = Object.values(sourceData.artworks).filter(a => a.issueId === issueId)[Number(n) - 1]
+  return art ? { page: art.pageNumber } : {}
+}
 
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
+export default createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  // Every route is matched by specificity in vue-router 4 (see the /issue/N/:view limits below).
   routes: [
     {
       path: '/',
-      redirect: '/issues'
-      // name: 'Cover',
-      // component: CoverPage
+      name: 'LandingPage',
+      component: () => import('@/views/LandingPage.vue')
+    },
+    // Every volume's artwork is viewed in the same viewer.
+    {
+      path: '/latest',
+      name: 'LatestPage',
+      component: () => import('@/views/VolumePage.vue')
+    },
+    {
+      path: '/volume/:issueId(\\d+)',
+      name: 'VolumePage',
+      component: () => import('@/views/VolumePage.vue')
+    },
+    // Old artwork URLs (these must stay above the /issue/... routes they shadow).
+    {
+      path: '/issue/:issueIndex(\\d+)/artwork',
+      redirect: to => `/volume/${to.params.issueIndex}`
+    },
+    {
+      path: '/issue/:issueIndex(\\d+)/:artworkIndex(\\d+)',
+      redirect: to => ({
+        path: `/volume/${to.params.issueIndex}`,
+        query: pageOfNthArtwork(to.params.issueIndex, to.params.artworkIndex)
+      })
     },
     {
       path: '/about',
       name: 'about',
       component: () => import('@/views/About.vue')
     },
+    // Written pieces and artist lists. These must stay above /issue/:issueIndex.
     {
-      path: '/issue/3/:view',
-      name: 'Issue3Page',
-      props: true,
-      component: () => import('@/views/Issue3Page.vue')
+      path: '/issue/3/poem',
+      name: 'PoemPage',
+      component: () => import('@/views/PoemPage.vue')
     },
     {
-      path: '/issue/4/:view',
-      name: 'Issue4Page',
-      props: true,
-      component: () => import('@/views/Issue4Page.vue')
-    },
-    {
-      path: '/issue/5/:view',
-      name: 'Issue5Page',
-      props: true,
-      component: () => import('@/views/Issue5Page.vue')
-    },
-    {
-      path: '/issue/:issueIndex/essay',
+      path: '/issue/:issueIndex(\\d+)/essay',
       name: 'EssayPage',
       props: true,
       component: () => import('@/views/EssayPage.vue')
     },
     {
-      path: '/issue/:issueIndex/artists',
+      path: '/issue/:issueIndex(\\d+)/artists',
       name: 'ArtistsPage',
       props: true,
-      component: ArtistsPage
-    }, // note that essay and artists must stay above the :issueIndex to preserve routing
+      component: () => import('@/views/ArtistsPage.vue')
+    },
+    // Old issue index and issue pages now live in the volume viewer.
     {
       path: '/issues/',
-      name: 'IssuesPage',
-      props: true,
-      component: IssuesPage
+      redirect: '/latest'
     },
     {
-      path: '/issue/:issueIndex',
-      name: 'IssuePage',
-      props: true,
-      component: IssuePage
-    },
-    {
-      path: '/issue/:issueIndex/:artworkIndex',
-      name: 'IssuePageWithArtwork',
-      props: true,
-      component: IssuePage
+      path: '/issue/:issueIndex(\\d+)',
+      redirect: to => `/volume/${to.params.issueIndex}`
     },
     {
       path: '/submit',
@@ -85,8 +88,8 @@ export default new Router({
     }
   ],
   scrollBehavior: function (to, from, savePosition) {
-    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
-    
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' })
+
     /* Not sure what all this means, but it causes the app to keep the scroll position
     from previous link, as opposed to starting at the top of each page
     if (to.hash) {

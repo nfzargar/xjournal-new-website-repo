@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+.vercel
 /old_images
 /public/images/400
 /public/images/768
@@ -24,3 +25,5 @@ yarn-error.log*
 *.sln
 *.sw*
 *.bak
+# Full-size originals backed up before compressing (not deployed)
+image-originals/

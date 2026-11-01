@@ -3,46 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "predev": "npm run images",
+    "dev": "vite",
+    "preserve": "npm run images",
+    "serve": "vite",
+    "prebuild": "npm run images",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "images": "node scripts/compress-images.cjs"
   },
   "dependencies": {
-    "paper": "^0.12.0",
-    "tachyons": "^4.11.1",
-    "v-touch": "^1.5.2",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-plugin-eslint": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "@vue/eslint-config-standard": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/standard"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "eslint": "^10.13.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^17.13.0",
+    "sharp": "^0.35.5",
+    "vercel": "^59.16.0",
+    "vite": "^8.3.4"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "type": "module"
 }

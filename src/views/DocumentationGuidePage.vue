@@ -1,88 +1,132 @@
 <template>
-  <section class="pt4-ns">
-    <div class="fl-l w-25-l w-0 ma0 pa0" style="height: 1px;">&nbsp;</div>
-    <div class="fl-ns pa3 pa4-ns soft-frame w-100 w-auto-l">
-    <h1 class="serif lh-display f2 near-black mb3 mb4-ns">Guide to Documenting Your Artwork At Home</h1>
-    <h2 class="sans-serif f4 f3-ns b riso-kellygreen">lighting</h2>
-    <ul class="pb3">
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        The best light is natural light.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Diffused, soft lighting is better than strong direct lighting.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Overcast weather is good for this!
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Avoid intense light and strong shadows.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Avoid overhead lights that cast uneven colored light on your work.
-      </li>
-    </ul>
-    <h2 class="sans-serif f4 f3-ns b riso-kellygreen">camera</h2>
-    <ul class="pb3">
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Use a tripod if you have one, otherwise hold the camera as still as possible.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        You could also use an object, like a chair, to rest your camera or phone on.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Square up your work with the camera so the image is not skewed.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Works done on paper should be hung using clear tacks or tape on the back.
-      </li>
-    </ul>
-    <h2 class="sans-serif f4 f3-ns b riso-kellygreen">background</h2>
-    <ul class="pb3">
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Give three or four inches of wall space around your piece.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Use a neutral background, like a plain white or gray wall.
-      </li>
-    </ul>
-    <h2 class="sans-serif f4 f3-ns b riso-kellygreen">sculpture</h2>
-    <ul class="pb3">
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Take lots of photos from different angles.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Choose the angles which best represent the piece as a whole.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Avoid distracting backgrounds.
-      </li>
-    </ul>
-    <h2 class="sans-serif f4 f3-ns b riso-kellygreen">scanning</h2>
-    <ul class="pb3">
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        Scanners are great for drawings and small paintings.
-      </li>
-      <li class="ttl   w-100-ns lh-copy sans-serif f4 f3-ns pb0 near-black">
-        If you have a scanner, make sure to scan at the highest quality and resolution.
-      </li>
-    </ul>
-    <a class="f4 link dim tc ba ph3 pv2 mb2 dib sans-serif bg-riso-kellygreen b--riso-kellygreen near-white b w-100"
-       href="https://docs.google.com/forms/d/e/1FAIpQLSf63kCDd6cZJ_FBJHrBcz46tYQdSIg7NnSLkf8VuGUe1swllA/viewform?usp=sf_link">
-       submissions are open
-    </a>
-    <span class="w-100 b--solid b--riso-kellygreen bw1 dib h-0"/>
-    <p style="text-indent: -0.7em" class="ttl w-100-ns lh-copy sans-serif f4 f5-ns pb0 near-black">
-      <span class="riso-kellygreen b">&#8225;</span> Images with poor lighting will not be considered.<br/>
-      X Journal is a selective publication, not all entries will be accepted.
-    </p>
+  <SiteShell scroll>
+    <div class="guide">
+      <router-link class="guide__back" to="/submit">&larr; submit</router-link>
+      <h1 class="guide__title">Guide to Documenting Your Artwork At Home</h1>
+
+      <section v-for="section in sections" :key="section.title" class="guide__section">
+        <h2 class="guide__head">{{ section.title }}</h2>
+        <ul class="guide__list">
+          <li v-for="tip in section.tips" :key="tip">{{ tip }}</li>
+        </ul>
+      </section>
+
+      <section class="guide__section">
+        <h2 class="guide__head">notes</h2>
+        <ul class="guide__list">
+          <li v-for="note in notes" :key="note">{{ note }}</li>
+        </ul>
+      </section>
     </div>
-  </section>
+  </SiteShell>
 </template>
 
-<style>
-.soft-frame{
-  background-color: var(--main-bg-color);
-  box-shadow:  10px 10px 20px #fafafa,
-             -3px -3px 20px #fafafa;
+<script>
+import SiteShell from '@/components/SiteShell.vue'
+
+const sections = [
+  {
+    title: 'lighting',
+    tips: [
+      'The best light is natural light.',
+      'Diffused, soft lighting is better than strong direct lighting.',
+      'Overcast weather is good for this!',
+      'Avoid intense light and strong shadows.',
+      'Avoid overhead lights that cast uneven colored light on your work.'
+    ]
+  },
+  {
+    title: 'camera',
+    tips: [
+      'Use a tripod if you have one, otherwise hold the camera as still as possible.',
+      'You could also use an object, like a chair, to rest your camera or phone on.',
+      'Square up your work with the camera so the image is not skewed.',
+      'Works done on paper should be hung using clear tacks or tape on the back.'
+    ]
+  },
+  {
+    title: 'background',
+    tips: [
+      'Give three or four inches of wall space around your piece.',
+      'Use a neutral background, like a plain white or gray wall.'
+    ]
+  },
+  {
+    title: 'sculpture',
+    tips: [
+      'Take lots of photos from different angles.',
+      'Choose the angles which best represent the piece as a whole.',
+      'Avoid distracting backgrounds.'
+    ]
+  },
+  {
+    title: 'scanning',
+    tips: [
+      'Scanners are great for drawings and small paintings.',
+      'If you have a scanner, make sure to scan at the highest quality and resolution.'
+    ]
+  }
+]
+
+const notes = [
+  'Images with poor lighting will not be considered.',
+  'X Journal is a selective publication, not all entries will be accepted.'
+]
+
+export default {
+  components: { SiteShell },
+  data () {
+    return {
+      sections,
+      notes
+    }
+  }
+}
+</script>
+
+<style scoped>
+.guide {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.guide__back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.guide__back:hover {
+  color: #ff3b30;
+}
+
+.guide__title {
+  margin: 0 0 2.5rem;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  line-height: 0.95;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.guide__head {
+  margin: 2rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ff3b30;
+}
+
+.guide__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.guide__list li {
+  padding: 0.35rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 </style>

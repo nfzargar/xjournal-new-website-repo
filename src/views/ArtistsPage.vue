@@ -1,116 +1,139 @@
 <template>
-  <section class=" flex-ns justify-center-ns">
-    <ul :class="spotColor" class="fr mt0 mt4-ns w-100 w-50-ns sans-serif pa0">
-      <li
-        v-for="artistId in issueArtistIds"
-        :key="artistId"
-        :id=artistBookmark(artistId)
-        :class="bSpotColor"
-        class="fl lh-copy cb w-100 mb4 bt-m bt-l bw1 b--solid br-0 bl-0 bb-0 artist-wrapper"
-      >
-        <p class="f6 f4-ns fl tl w-50 pr2 pt1 b ttl tr tl-ns">
-          <span class="fr fn-ns">{{artistName(artistId)}}</span>
-        </p>
-        <ul>
-          <router-link
-            class="link fr cr w-50 pl1 f6 f5-ns black-80 b--solid artwork-listing pointer"
-            :class="[bSpotColor, hoverSpotColor]"
-            v-for="artworkId in artistsWorks(artistId)"
-            :key="artworkId"
-            :to="{path:`${artworkPageNumber(artworkId)}`}"
-            tag="li"
-          >
-            <!-- <span class="fl w-30 db">{{artworkYear(artworkId)}}</span> -->
-            <span class="fl w-70 db pl2 mb2">
-              {{artworkTitle(artworkId)}}
-            </span>
-          </router-link>
-        </ul>
-      </li>
-    </ul>
-  </section>
+  <SiteShell scroll :issue-id="issueIndex">
+    <div class="artists">
+      <h1 class="artists__title">artists</h1>
+      <p class="artists__volume">x{{ issueIndex }}</p>
+      <ul class="artists__list">
+        <li v-for="artistId in issueArtistIds" :id="bookmark(artistId)" :key="artistId" class="artists__row">
+          <p class="artists__name">{{ artistName(artistId) }}</p>
+          <ul class="artists__works">
+            <li v-for="artworkId in artistsWorks(artistId)" :key="artworkId">
+              <router-link
+                class="artists__work"
+                :to="{ path: `/volume/${issueIndex}`, query: { page: artworkPageNumber(artworkId) } }">
+                {{ artworkTitle(artworkId) }}
+              </router-link>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </SiteShell>
 </template>
 
 <script>
 import sourceData from '@/data'
+import SiteShell from '@/components/SiteShell.vue'
+import { firstOfEachSeries } from '@/volumes'
 
 export default {
+  components: { SiteShell },
   props: {
-    'issueIndex': {
-      require: true,
+    issueIndex: {
+      required: true,
       type: String
     }
   },
-  mounted: function () {
-    if (this.$route.hash !== '') {
-      console.log(this.$route.hash)
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve(scrollBy({ left: 0, top: -60, behavior: 'smooth' }))
-        }, 1)
-      })
-    }
-  },
   computed: {
-    artistIds () {
-      return Object.keys(sourceData.artists)
-    },
     issueArtistIds () {
-      return this.artistIds.filter(x => sourceData.artists[x].issueIds.includes(this.issueIndex))
-    },
-    artworkIds () {
-      return Object.keys(sourceData.artworks)
+      return Object.keys(sourceData.artists)
+        .filter(id => sourceData.artists[id].issueIds.includes(this.issueIndex))
     },
     issueArtworkIds () {
-      return this.artworkIds.filter(x => sourceData.artworks[x].issueId === this.issueIndex)
-    },
-    spotColor () {
-      return sourceData.issues[this.issueIndex].spotColor
-    },
-    hoverSpotColor () {
-      return 'hover-' + this.spotColor
-    },
-    bSpotColor () {
-      return 'b--' + this.spotColor
+      return Object.keys(sourceData.artworks)
+        .filter(id => sourceData.artworks[id].issueId === this.issueIndex)
     }
+  },
+  mounted () {
+    // Scroll to the artist named in the URL hash (#First_Last).
+    const hash = this.$route.hash
+    if (!hash) return
+    this.$nextTick(() => {
+      const el = document.getElementById(decodeURIComponent(hash.slice(1)))
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    })
   },
   methods: {
     artistName (id) {
       return sourceData.artists[id].name
     },
-    artistYear (id) {
-      return sourceData.artists[id].graduationYear
-    },
     artworkPageNumber (id) {
       return sourceData.artworks[id].pageNumber
-    },
-    artworkYear (id) {
-      return sourceData.artworks[id].year
     },
     artworkTitle (id) {
       return sourceData.artworks[id].title
     },
+    // Works can be co-authored, in which case artistId is an array.
     artistsWorks (id) {
-      return this.issueArtworkIds.filter(x => sourceData.artworks[x].artistId === id) // new Set(Object.values(x.artistIds)).has(id))
+      const works = this.issueArtworkIds.filter(x => {
+        const by = sourceData.artworks[x].artistId
+        return Array.isArray(by) ? by.includes(id) : by === id
+      })
+      return firstOfEachSeries(works.map(x => ({ ...sourceData.artworks[x], id: x }))).map(art => art.id)
     },
-    artistBookmark (id) {
+    bookmark (id) {
       return this.artistName(id).split(' ').join('_')
     }
   }
 }
 </script>
 
-<style>
-ul > .artwork-listing{
-  border-width: 0.1rem;
-  border-right: 0;
-  border-bottom: 0;
+<style scoped>
+.artists {
+  max-width: 64rem;
+  margin: 0 auto;
 }
 
-ul > .artwork-listing:first-child{
-  border-width: 0.1rem;
-  border-right: 0;
-  border-bottom: 0;
-  border-top: 0;
+.artists__title {
+  margin: 0;
+  font-size: clamp(3rem, 12vw, 8rem);
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.artists__volume {
+  margin: 0.5rem 0 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ff3b30;
+}
+
+.artists__list,
+.artists__works {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.artists__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.artists__name {
+  margin: 0;
+  font-weight: 700;
+}
+
+.artists__work {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.artists__work:hover {
+  color: #ff3b30;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 40em) {
+  .artists__row { grid-template-columns: 1fr; gap: 0.25rem; }
 }
 </style>

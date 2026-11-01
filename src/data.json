@@ -18,6 +18,18 @@
     "5" : {
       "essayId" : "reclamation",
       "spotColor" : "riso-sunflower"
+    },
+    "6" : {
+      "essayId" : "borders",
+      "spotColor" : "riso-kellygreen"
+    },
+    "7" : {
+      "essayId" : "liminal",
+      "spotColor" : "riso-red"
+    },
+    "8" : {
+      "essayId" : "kalopsia",
+      "spotColor" : "riso-kellygreen"
     }
   },
   "artworks": {
@@ -3401,7 +3413,2034 @@
     }
 
 
-
+,
+    "eApBp1IU5E": {
+      "title": "Egg on Toast",
+      "yearMade": "2024",
+      "size": "15\" x 15\"",
+      "description": "Acrylic paint, wood",
+      "artistId": "spng9FYjWl",
+      "imageNames": [
+        "v6-p1.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "1"
+    },
+    "08w2SR8mtD": {
+      "title": "Kitty!",
+      "yearMade": "2024",
+      "size": "4' x 4'",
+      "description": "Oil on canvas",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v6-p2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "2"
+    },
+    "bhDzOIg0AD": {
+      "title": "Exploration",
+      "yearMade": "2023",
+      "size": "3' x 3'",
+      "description": "Oil on canvas",
+      "artistId": "ssm582Xztz",
+      "imageNames": [
+        "v6-p3.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "3"
+    },
+    "xw57l4YZr3": {
+      "title": "Stand (installation photograph)",
+      "yearMade": "2024",
+      "size": "60\" x 50\" x 64\"",
+      "description": "Cardboard, plaster, acrylic, concrete",
+      "artistId": "gkXtZbo3Rm",
+      "imageNames": [
+        "v6-p4.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "4"
+    },
+    "hykjPRlTHg": {
+      "title": "The Circus",
+      "yearMade": "2023",
+      "size": "3' x 3'",
+      "description": "Oil on canvas",
+      "artistId": "KCcGkr1vYw",
+      "imageNames": [
+        "v6-p6.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "6"
+    },
+    "8DngqRqeUk": {
+      "title": "Filmed in Front of a Live Studio Audience",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital drawing",
+      "artistId": "gR4ZLeTdWf",
+      "imageNames": [
+        "v6-p7.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "7"
+    },
+    "Ik5qGIzo3g": {
+      "title": "Jane Doe",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Photography",
+      "artistId": "knipeahy5Z",
+      "imageNames": [
+        "v6-p8-1.jpg",
+        "v6-p8-2.jpg",
+        "v6-p8-3.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "8"
+    },
+    "vQrbfTGw0O": {
+      "title": "Pocket Change",
+      "yearMade": "2024",
+      "size": "3\" x 3\"",
+      "description": "Acrylic paint, plexiglass",
+      "artistId": "spng9FYjWl",
+      "imageNames": [
+        "v6-p10.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "10"
+    },
+    "Qehsr7nI2H": {
+      "title": "Eclipse",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Photography",
+      "artistId": "mm3zIw6LZz",
+      "imageNames": [
+        "v6-p11.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "11"
+    },
+    "3RUis1xVN8": {
+      "title": "Look closer - look away",
+      "yearMade": "2024",
+      "size": "3.5\" x 2.5\" - 4\" x 5\"",
+      "description": "Found imagery, wax, playing cards",
+      "artistId": "kHHiMtK04u",
+      "imageNames": [
+        "v6-p14-1.jpg",
+        "v6-p14-2.jpg",
+        "v6-p14-3.jpg",
+        "v6-p14-4.jpg",
+        "v6-p14-5.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "14"
+    },
+    "UH3G3BYc6i": {
+      "title": "Spring",
+      "yearMade": "2024",
+      "size": "39\" x 13\" x 29\"",
+      "description": "Mixed Media",
+      "artistId": "H7ZR7PBYRI",
+      "imageNames": [
+        "v6-p16.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "16"
+    },
+    "9r6gcMtMEm": {
+      "title": "Midwestern Beach Day",
+      "yearMade": "2024",
+      "size": "24\" x 36\"",
+      "description": "Hot glue, fabric, paper, acrylic paint",
+      "artistId": "yqYPAfD11t",
+      "imageNames": [
+        "v6-p17.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "17"
+    },
+    "m2W2I9z37L": {
+      "title": "Reflections",
+      "yearMade": "2024",
+      "size": "45\" x 54\"",
+      "description": "Charcoal, paper",
+      "artistId": "4bsJMurlZy",
+      "imageNames": [
+        "v6-p18.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "18"
+    },
+    "FMRp9T51lb": {
+      "title": "Harp",
+      "yearMade": "2024",
+      "size": "11\" x 9\" x 23\"",
+      "description": "Paper straws, hot glue, yarn, marker",
+      "artistId": "H7ZR7PBYRI",
+      "imageNames": [
+        "v6-p19.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "19"
+    },
+    "4hroNBLanG": {
+      "title": "Change in Place",
+      "yearMade": "2024",
+      "size": "11\" x 8\"",
+      "description": "Photography",
+      "artistId": "pX6owavjNM",
+      "imageNames": [
+        "v6-p20-1.jpg",
+        "v6-p20-2.jpg",
+        "v6-p20-3.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "20"
+    },
+    "2bfxz1a6s8": {
+      "title": "Portrait of the Artist: Queerness, Consumerism, and Culture",
+      "yearMade": "2024",
+      "size": "4' x 4'",
+      "description": "Oil on canvas",
+      "artistId": "QWjHpO2kdt",
+      "imageNames": [
+        "v6-p22.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "22"
+    },
+    "f7BVtXEhEJ": {
+      "title": "Glitch in Macabre",
+      "yearMade": "2024",
+      "size": "",
+      "description": "",
+      "artistId": "Pjl8ptUs7i",
+      "imageNames": [
+        "v6-p23-1.jpg",
+        "v6-p23-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "23"
+    },
+    "KwyCpjQkpt": {
+      "title": "In the Beginning",
+      "yearMade": "2024",
+      "size": "28\" x 37.5\"",
+      "description": "Pastel, charcoal, ink, graphite on paper",
+      "artistId": "634RWJLTFz",
+      "imageNames": [
+        "v6-p24.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "24"
+    },
+    "PDpneZKvK6": {
+      "title": "Foamy Beach",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Photography",
+      "artistId": "IziOSayrNE",
+      "imageNames": [
+        "v6-p25.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "25"
+    },
+    "hsxblKDOB9": {
+      "title": "GROW!",
+      "yearMade": "2022-23",
+      "size": "13\" x 13\" x 18\"",
+      "description": "Earthenware clay, low fire glaze",
+      "artistId": "MlfxZJJaPr",
+      "imageNames": [
+        "v6-p28-1.jpg",
+        "v6-p28-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "28"
+    },
+    "5WyGGh2dfT": {
+      "title": "Untitled",
+      "yearMade": "2024",
+      "size": "4' x 4'",
+      "description": "Oil on canvas",
+      "artistId": "ucpp6c87Sx",
+      "imageNames": [
+        "v6-p29.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "29"
+    },
+    "QQcx4qlq1n": {
+      "title": "Held Together",
+      "yearMade": "2024",
+      "size": "54\" x 52\"",
+      "description": "Cyanotype, fabric scraps and onion, pomegranate, iron, and avocado dyed cotton",
+      "artistId": "snZV3bubIV",
+      "imageNames": [
+        "v6-p30.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "30"
+    },
+    "OE4GXiyIWe": {
+      "title": "For the Log Cabin",
+      "yearMade": "2024",
+      "size": "3' x 3'",
+      "description": "Oil on canvas",
+      "artistId": "oEGxdEc5QH",
+      "imageNames": [
+        "v6-p32.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "32"
+    },
+    "O5sCM0wBVW": {
+      "title": "Body no. 2",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Ceramic",
+      "artistId": "JFywBuPsIq",
+      "imageNames": [
+        "v6-p33-1.jpg",
+        "v6-p33-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "33"
+    },
+    "iGLctCIkNx": {
+      "title": "Girl with a hime cut",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital drawing",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v6-p34.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "34"
+    },
+    "jWZ7fwDqWu": {
+      "title": "Bodybag",
+      "yearMade": "2024",
+      "size": "55\" x 12\" x 10\"",
+      "description": "Wine, twine, concrete, tape, garbage bags",
+      "artistId": "V3ShzlQtZl",
+      "imageNames": [
+        "v6-p35.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "35"
+    },
+    "rFQNov2Xu0": {
+      "title": "X-ing",
+      "yearMade": "2024",
+      "size": "11.5\" x 14\"",
+      "description": "Plastic, acrylic paint, paper",
+      "artistId": "yqYPAfD11t",
+      "imageNames": [
+        "v6-p36.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "36"
+    },
+    "bP06Wp6NQF": {
+      "title": "Reach",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Photography",
+      "artistId": "mm3zIw6LZz",
+      "imageNames": [
+        "v6-p37.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "37"
+    },
+    "XU2DtxrfhA": {
+      "title": "Fallout",
+      "yearMade": "2024",
+      "size": "5' x 5' x 5'",
+      "description": "Trash bags, plaster sheets, beach ball",
+      "artistId": "V3ShzlQtZl",
+      "imageNames": [
+        "v6-p38.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "38"
+    },
+    "ATsnVbWnG5": {
+      "title": "Staircase",
+      "yearMade": "2024",
+      "size": "5' x 3'",
+      "description": "Oil paint",
+      "artistId": "ssm582Xztz",
+      "imageNames": [
+        "v6-p39.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "39"
+    },
+    "njZErrEc7Y": {
+      "title": "Escape from the Big Distraction",
+      "yearMade": "2023",
+      "size": "34\" x 20\" x 15\"",
+      "description": "Wood, paper, resin, acrylic, oil pastel",
+      "artistId": "pX6owavjNM",
+      "imageNames": [
+        "v6-p42.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "42"
+    },
+    "nHVTRO3RLI": {
+      "title": "Adornment",
+      "yearMade": "2024",
+      "size": "11\" x 18\"",
+      "description": "Ink on paper",
+      "artistId": "spng9FYjWl",
+      "imageNames": [
+        "v6-p43.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "43"
+    },
+    "SUvc4w4YU9": {
+      "title": "Rush",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Photography",
+      "artistId": "fJDkIay8Eu",
+      "imageNames": [
+        "v6-p44.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "44"
+    },
+    "CPfHrWDkrB": {
+      "title": "Seperation (revised)",
+      "yearMade": "2024",
+      "size": "56\" x 40\"",
+      "description": "Oil on canvas",
+      "artistId": "gkXtZbo3Rm",
+      "imageNames": [
+        "v6-p45.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "45"
+    },
+    "zJri6fp1OR": {
+      "title": "Help if Needed",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photograph",
+      "artistId": "IziOSayrNE",
+      "imageNames": [
+        "v6-p46.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "46"
+    },
+    "4VuV5WIeeT": {
+      "title": "Pin-up",
+      "yearMade": "2023",
+      "size": "8\" x 10\"",
+      "description": "35 mm photography",
+      "artistId": "knipeahy5Z",
+      "imageNames": [
+        "v6-p48-1.jpg",
+        "v6-p48-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "48"
+    },
+    "P9tzsNzLv5": {
+      "title": "FREE PALESTINE. END THE OCCUPATION.",
+      "yearMade": "2023",
+      "size": "4' x 5'",
+      "description": "Oil paint on wood panel",
+      "artistId": "kHHiMtK04u",
+      "imageNames": [
+        "v6-p49.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "49"
+    },
+    "sXdwS6NrQB": {
+      "title": "Madeline",
+      "yearMade": "2023",
+      "size": "18\" x 30\"",
+      "description": "Oil on canvas",
+      "artistId": "20PKu2mSLT",
+      "imageNames": [
+        "v6-p52.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "52"
+    },
+    "WDsMxGufr1": {
+      "title": "The Art of Noticing",
+      "yearMade": "2024",
+      "size": "5' x 2'",
+      "description": "Oil on canvas",
+      "artistId": "oEGxdEc5QH",
+      "imageNames": [
+        "v6-p53.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "53"
+    },
+    "3wNZhOydfP": {
+      "title": "Particles in Motion",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Generative, p5js",
+      "artistId": "sixIrulfDE",
+      "imageNames": [
+        "v6-p54-1.jpg",
+        "v6-p54-2.jpg",
+        "v6-p54-3.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "54"
+    },
+    "wY9I2hQEo4": {
+      "title": "Untitled",
+      "yearMade": "2024",
+      "size": "24\" x 36\"",
+      "description": "Charcoal, ink on paper",
+      "artistId": "634RWJLTFz",
+      "imageNames": [
+        "v6-p56.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "56"
+    },
+    "LCk0Xfm3lX": {
+      "title": "Enclosure",
+      "yearMade": "2024",
+      "size": "14\" x 15\" x 30\"",
+      "description": "Cardboard, paper, and wheat paste",
+      "artistId": "HEeQYjYQNz",
+      "imageNames": [
+        "v6-p57-1.jpg",
+        "v6-p57-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "57"
+    },
+    "rgDohaA4Ez": {
+      "title": "Nightlight",
+      "yearMade": "2024",
+      "size": "5' x 20\"",
+      "description": "Fabric, paper, acrylic paint, wooden drawer",
+      "artistId": "yqYPAfD11t",
+      "imageNames": [
+        "v6-p58.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "58"
+    },
+    "WodINQJBqx": {
+      "title": "Untitled",
+      "yearMade": "2024",
+      "size": "18\" x 24\"",
+      "description": "Charcoal and ink on paper",
+      "artistId": "RJXvBGlG0D",
+      "imageNames": [
+        "v6-p59.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "59"
+    },
+    "bViMFNUydV": {
+      "title": "Caught",
+      "yearMade": "2023",
+      "size": "8\" x 10\"",
+      "description": "35 mm photographs",
+      "artistId": "knipeahy5Z",
+      "imageNames": [
+        "v6-p60-1.jpg",
+        "v6-p60-2.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "60"
+    },
+    "yfGggQ8HID": {
+      "title": "Momentary",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Open studio group show",
+      "artistId": "",
+      "imageNames": [
+        "v6-p62.jpg"
+      ],
+      "issueId": "6",
+      "pageNumber": "62"
+    },
+    "F0b7kYFZlt": {
+      "title": "The Drawing Machine",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Creative coding, p5.js",
+      "artistId": "XuoYhDILjN",
+      "imageNames": [
+        "v7-p8-1.jpg",
+        "v7-p8-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "8"
+    },
+    "e08TU0fCeW": {
+      "title": "A collection of stage self portraits",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography, scans of 35mm film negatives",
+      "artistId": "fWHmlfmIBR",
+      "imageNames": [
+        "v7-p10.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "10"
+    },
+    "HgBWIh6d08": {
+      "title": "-2",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Non Traditional media, Graphic Design",
+      "artistId": "sixIrulfDE",
+      "imageNames": [
+        "v7-p11.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "11"
+    },
+    "U6GnDTVx6c": {
+      "title": "truck",
+      "yearMade": "2024",
+      "size": "33\" x 23\"",
+      "description": "charcoal, pencil, graphite",
+      "artistId": "sixIrulfDE",
+      "imageNames": [
+        "v7-p12.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "12"
+    },
+    "Ecw9h94QdD": {
+      "title": "breathe (sharp)",
+      "yearMade": "2024",
+      "size": "5\" x 8\"",
+      "description": "Notebook paper, glue, watercolor",
+      "artistId": "MlfxZJJaPr",
+      "imageNames": [
+        "v7-p13.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "13"
+    },
+    "DVUbaf5hyD": {
+      "title": "Dove II",
+      "yearMade": "2024",
+      "size": "8\" x 10\"",
+      "description": "Black and white drawn on sharpie and acrylic, pritnted on photo paper",
+      "artistId": "Qfsf045UJd",
+      "imageNames": [
+        "v7-p14.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "14"
+    },
+    "x8SLEq0gMs": {
+      "title": "The One Who Told Me",
+      "yearMade": "2025",
+      "size": "16\" x 20\"",
+      "description": "Oil paint on stretched canvas",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p15.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "15"
+    },
+    "QWk6xCERVm": {
+      "title": "Costume Designs for Intimate Apparel by Lynn Nottage",
+      "yearMade": "2025",
+      "size": "",
+      "description": "watercolor",
+      "artistId": "rClKebif2F",
+      "imageNames": [
+        "v7-p16-1.jpg",
+        "v7-p16-2.jpg",
+        "v7-p16-3.jpg",
+        "v7-p16-4.jpg",
+        "v7-p16-5.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "16"
+    },
+    "ZAp121u4W8": {
+      "title": "moving in",
+      "yearMade": "2024",
+      "size": "8\" x 10\"",
+      "description": "sandwiched negatives, sharpie, photo paper, glue",
+      "artistId": "Qfsf045UJd",
+      "imageNames": [
+        "v7-p18.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "18"
+    },
+    "U9DUWGFy1x": {
+      "title": "yolk",
+      "yearMade": "2025",
+      "size": "4\" x 36\" x 12\"",
+      "description": "Chicken wire, paper, glue, water, spray foam, cardboard, newspaper, paint, oil pastel, charcoal",
+      "artistId": "MlfxZJJaPr",
+      "imageNames": [
+        "v7-p19-1.jpg",
+        "v7-p19-2.jpg",
+        "v7-p19-3.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "19"
+    },
+    "4KIPdbSKNZ": {
+      "title": "Galesburg",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "UIRtePiwWd",
+      "imageNames": [
+        "v7-p20-1.jpg",
+        "v7-p20-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "20"
+    },
+    "qj8dFM7fRe": {
+      "title": "calamari surprise",
+      "yearMade": "2025",
+      "size": "17.5\" x 11.5\" x 13\"",
+      "description": "metal, spray foam, air-dry clay, oil-based clay, acrylic paint, gloss finish",
+      "artistId": "n8uIVnykhh",
+      "imageNames": [
+        "v7-p22-1.jpg",
+        "v7-p22-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "22"
+    },
+    "CM0cUjz80e": {
+      "title": "A collection of stage self portraits",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography, scans of 35mm film negatives",
+      "artistId": "fWHmlfmIBR",
+      "imageNames": [
+        "v7-p23.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "23"
+    },
+    "abWcWYY6NZ": {
+      "title": "Clearing",
+      "yearMade": "2025",
+      "size": "11\" x 14\"",
+      "description": "Oil paint to oil pastel on board",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p24.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "24"
+    },
+    "VtDlJ6xOIm": {
+      "title": "c'est la vie",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography",
+      "artistId": "HPeI9ySlDH",
+      "imageNames": [
+        "v7-p25.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "25"
+    },
+    "RnM9tPvNlF": {
+      "title": "Garden",
+      "yearMade": "2025",
+      "size": "11\" x 14\"",
+      "description": "Oil paint to oil pastel on board",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p28.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "28"
+    },
+    "WnvnjPZGBs": {
+      "title": "A collection of stage self portraits",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography, scans of 35mm film negatives",
+      "artistId": "fWHmlfmIBR",
+      "imageNames": [
+        "v7-p29.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "29"
+    },
+    "o6DQrkaszG": {
+      "title": "Forest 1",
+      "yearMade": "2025",
+      "size": "11\" x 14\"",
+      "description": "Oil paint to oil pastel on board",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p30.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "30"
+    },
+    "MQ2XQXHD43": {
+      "title": "Daycrawler",
+      "yearMade": "2025",
+      "size": "11\" x 14\"",
+      "description": "Acrylic paint on canvas",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p31.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "31"
+    },
+    "beu8OL1vjB": {
+      "title": "The highlights",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography",
+      "artistId": "x1AUbK6B1Q",
+      "imageNames": [
+        "v7-p32-1.jpg",
+        "v7-p32-2.jpg",
+        "v7-p32-3.jpg",
+        "v7-p32-4.jpg",
+        "v7-p32-5.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "32"
+    },
+    "4kEswf4pWk": {
+      "title": "Mixing Things Up",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Creative coding, p5.js",
+      "artistId": "XuoYhDILjN",
+      "imageNames": [
+        "v7-p34.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "34"
+    },
+    "AbKFAmNc5D": {
+      "title": "Tempered Glass",
+      "yearMade": "2024",
+      "size": "12\" x 8\"",
+      "description": "Oil pastel over oil pastel canvas",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p36.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "36"
+    },
+    "LAbbSErH2F": {
+      "title": "to float",
+      "yearMade": "2024",
+      "size": "7.5\" x 8\"",
+      "description": "colored pencils, rice paper, sumi ink, water color paper",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p37.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "37"
+    },
+    "GK2bPJSkZX": {
+      "title": "Solace study",
+      "yearMade": "2025",
+      "size": "11.5\" x 10\"",
+      "description": "Oil paint on matte board",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p38.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "38"
+    },
+    "r6dHflNRDp": {
+      "title": "Still life with Mirror",
+      "yearMade": "2025",
+      "size": "2.5\" x 3.5\"",
+      "description": "Watercolor, graphite and gel pen on paper (Artist trading card)",
+      "artistId": "Qfsf045UJd",
+      "imageNames": [
+        "v7-p39.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "39"
+    },
+    "HBxzCwhErX": {
+      "title": "tan",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Creative coding, p5.js",
+      "artistId": "sixIrulfDE",
+      "imageNames": [
+        "v7-p40-1.jpg",
+        "v7-p40-2.jpg",
+        "v7-p40-3.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "40"
+    },
+    "7UuDToXc7I": {
+      "title": "Galesburg",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "UIRtePiwWd",
+      "imageNames": [
+        "v7-p41.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "41"
+    },
+    "VL0AfmU8oE": {
+      "title": "Mixing Things Up",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Creative coding, p5.js",
+      "artistId": "XuoYhDILjN",
+      "imageNames": [
+        "v7-p42.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "42"
+    },
+    "zlYdawXpDf": {
+      "title": "windows",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v7-p43-1.jpg",
+        "v7-p43-2.jpg",
+        "v7-p43-3.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "43"
+    },
+    "r61f7Diw7l": {
+      "title": "space between isolation and solitude",
+      "yearMade": "2019",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "RJXvBGlG0D",
+      "imageNames": [
+        "v7-p44.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "44"
+    },
+    "V64U5hR7Ga": {
+      "title": "carved",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v7-p45.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "45"
+    },
+    "rBzSkaO9DQ": {
+      "title": "c'est la vie",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography",
+      "artistId": "HPeI9ySlDH",
+      "imageNames": [
+        "v7-p46.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "46"
+    },
+    "YZ4nK4HQgP": {
+      "title": "Dawn at Knox",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "SPXbRBxXi5",
+      "imageNames": [
+        "v7-p47.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "47"
+    },
+    "YSLGVAxybm": {
+      "title": "Precarious",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "bFbtgrhQGV",
+      "imageNames": [
+        "v7-p48.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "48"
+    },
+    "MyAfj2Xw4J": {
+      "title": "c'est la vie",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography",
+      "artistId": "HPeI9ySlDH",
+      "imageNames": [
+        "v7-p49.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "49"
+    },
+    "Uj7CiedaWX": {
+      "title": "snow",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v7-p50.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "50"
+    },
+    "qs4o3ZzCzw": {
+      "title": "alone",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v7-p51-1.jpg",
+        "v7-p51-2.jpg",
+        "v7-p51-3.jpg",
+        "v7-p51-4.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "51"
+    },
+    "VnAebA2rbQ": {
+      "title": "may thirteenth",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Watercolor & colored pencil on art board",
+      "artistId": "RQ9htGX9Yf",
+      "imageNames": [
+        "v7-p52.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "52"
+    },
+    "WP3JZZoNIj": {
+      "title": "valley of the rocks",
+      "yearMade": "2025",
+      "size": "15\" x 20\"",
+      "description": "acrylic on matte board",
+      "artistId": "rfm23EDQvx",
+      "imageNames": [
+        "v7-p53.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "53"
+    },
+    "ny6c76yMsc": {
+      "title": "If we didn't mow our lawn pt 1",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Oil pastel on paper",
+      "artistId": "oEGxdEc5QH",
+      "imageNames": [
+        "v7-p56.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "56"
+    },
+    "bToFrayC7F": {
+      "title": "Rock bowl",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Colored pencil on wood",
+      "artistId": "oEGxdEc5QH",
+      "imageNames": [
+        "v7-p56-1.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "56.1"
+    },
+    "2dgWsuqCWu": {
+      "title": "Bloom of Serenity",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital art",
+      "artistId": "8y0Gb5QJBa",
+      "imageNames": [
+        "v7-p57.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "57"
+    },
+    "iIv3dzAYlX": {
+      "title": "fall",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "sixIrulfDE",
+      "imageNames": [
+        "v7-p58-1.jpg",
+        "v7-p58-2.jpg",
+        "v7-p58-3.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "58"
+    },
+    "IZYFSiUnIk": {
+      "title": "pink world",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Collage",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v7-p60.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "60"
+    },
+    "6yOFQmVyN5": {
+      "title": "meow?",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Illustration, Mixed media",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v7-p61.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "61"
+    },
+    "OUED4DctDb": {
+      "title": "A collection of stage self portraits",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography, scans of 35mm film negatives",
+      "artistId": "fWHmlfmIBR",
+      "imageNames": [
+        "v7-p62-1.jpg",
+        "v7-p62-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "62"
+    },
+    "gJk6htfxaL": {
+      "title": "the heron",
+      "yearMade": "2025",
+      "size": "16\" x 20\"",
+      "description": "Acrylic paint",
+      "artistId": "n8uIVnykhh",
+      "imageNames": [
+        "v7-p63.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "63"
+    },
+    "igvhp6tROP": {
+      "title": "mirror",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Photography, Mixed media",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v7-p64.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "64"
+    },
+    "JoPFtGcHk6": {
+      "title": "The city in a 3x4 frame.",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "CBOicgbCfC",
+      "imageNames": [
+        "v7-p65.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "65"
+    },
+    "xwlQZJoVcQ": {
+      "title": "Stillness beneath the green",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "IGnejvk2sA",
+      "imageNames": [
+        "v7-p66.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "66"
+    },
+    "Bl8etOcVak": {
+      "title": "Passage of Strangers",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "IGnejvk2sA",
+      "imageNames": [
+        "v7-p67.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "67"
+    },
+    "2c1kxsONkq": {
+      "title": "Lotus",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Creative coding, p5.js",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v7-p68-1.jpg",
+        "v7-p68-2.jpg",
+        "v7-p68-3.jpg",
+        "v7-p68-4.jpg",
+        "v7-p68-5.jpg",
+        "v7-p68-6.jpg",
+        "v7-p68-7.jpg",
+        "v7-p68-8.jpg",
+        "v7-p68-9.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "68"
+    },
+    "E4DOXQ0xTg": {
+      "title": "The city in a 3x4 frame.",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "CBOicgbCfC",
+      "imageNames": [
+        "v7-p69.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "69"
+    },
+    "md0kDuriBE": {
+      "title": "puppy",
+      "yearMade": "2024",
+      "size": "36\" x 24\" x 12\"",
+      "description": "Chicken wire, paper, wheat paste, glue, paint, draywall, joint tape, oil pastel, air dry clay, found ribbon",
+      "artistId": "MlfxZJJaPr",
+      "imageNames": [
+        "v7-p70-1.jpg",
+        "v7-p70-2.jpg",
+        "v7-p70-3.jpg",
+        "v7-p70-4.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "70"
+    },
+    "GQ2HHlxtRh": {
+      "title": "Sunbed Soup",
+      "yearMade": "2025",
+      "size": "13.5\" x 16\"",
+      "description": "Acrylic paint on matte board",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p72.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "72"
+    },
+    "Do3kJtLbWr": {
+      "title": "Morning tasted this way",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "Acrylic paint on matte board",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p72-1.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "72.1"
+    },
+    "yK5IGfkl1b": {
+      "title": "be thyself",
+      "yearMade": "2024",
+      "size": "8\" x 10\"",
+      "description": "Photo paper, sharpie",
+      "artistId": "Qfsf045UJd",
+      "imageNames": [
+        "v7-p73.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "73"
+    },
+    "YuVC4ykwKj": {
+      "title": "Galesburg",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital photography",
+      "artistId": "UIRtePiwWd",
+      "imageNames": [
+        "v7-p74-1.jpg",
+        "v7-p74-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "74"
+    },
+    "3VFoNZdXzm": {
+      "title": "Cerebral",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Magazines, embroidery thread, found materials",
+      "artistId": "N0a8uJ5M6T",
+      "imageNames": [
+        "v7-p75.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "75"
+    },
+    "gUAcocrjze": {
+      "title": "Rhythm of Flow: A Wavebound Meditation in Blue",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Digital art",
+      "artistId": "8y0Gb5QJBa",
+      "imageNames": [
+        "v7-p76.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "76"
+    },
+    "aP6Sh7Z6xG": {
+      "title": "Who's back",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "Acrylic paint on matte board",
+      "artistId": "2iqVfkb7oF",
+      "imageNames": [
+        "v7-p77.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "77"
+    },
+    "L96ubKUe3f": {
+      "title": "c'est la vie",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Analog photography",
+      "artistId": "HPeI9ySlDH",
+      "imageNames": [
+        "v7-p78.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "78"
+    },
+    "QW8rFgR75a": {
+      "title": "Forest 2",
+      "yearMade": "2025",
+      "size": "11\" x 14\"",
+      "description": "Oil paint to oil pastel on board",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v7-p79.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "79"
+    },
+    "h95TVAM4By": {
+      "title": "Of love and loving",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Acrylic paint, oil pastel, coloring pages, photos",
+      "artistId": "oEGxdEc5QH",
+      "imageNames": [
+        "v7-p80-1.jpg",
+        "v7-p80-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "80"
+    },
+    "rCKoinhjAV": {
+      "title": "Fresh Fish",
+      "yearMade": "2024",
+      "size": "",
+      "description": "",
+      "artistId": "n8uIVnykhh",
+      "imageNames": [
+        "v7-p81-1.jpg",
+        "v7-p81-2.jpg",
+        "v7-p81-3.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "81"
+    },
+    "9bs4lCoiR2": {
+      "title": "birthday -1",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "B+W film photography printed on lford print paper",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v7-p82.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "82"
+    },
+    "OSs1vnLlZy": {
+      "title": "birthday -2",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "B+W film photography printed on lford print paper",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v7-p82-1.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "82.1"
+    },
+    "2N8kpLoIpP": {
+      "title": "birthday -3",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "B+W film photography printed on lford print paper",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v7-p82-2.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "82.2"
+    },
+    "X4Slp4OhPs": {
+      "title": "birthday -4",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "B+W film photography printed on lford print paper",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v7-p83.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "83"
+    },
+    "UeZs87qYz7": {
+      "title": "birthday -5",
+      "yearMade": "2025",
+      "size": "8\" x 10\"",
+      "description": "B+W film photography printed on lford print paper",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v7-p83-1.jpg"
+      ],
+      "issueId": "7",
+      "pageNumber": "83.1"
+    },
+    "hikzPikC1d": {
+      "title": "Eat it up",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Yarn, photos, glue, pasta",
+      "artistId": "yl3MGR0Qi9",
+      "imageNames": [
+        "v8-p10.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "10"
+    },
+    "bExxFExiAt": {
+      "title": "Worms for brains..and bodies",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Ceramics, Earthenware, cone 06 glazes",
+      "artistId": "3p2n598O7W",
+      "imageNames": [
+        "v8-p11-1.jpg",
+        "v8-p11-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "11"
+    },
+    "0biIfrR8wb": {
+      "title": "Green Oaks Plein Air Studies",
+      "yearMade": "2025",
+      "size": "30\" x 9\"",
+      "description": "Oil on canvas paper",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v8-p12-1.jpg",
+        "v8-p12-2.jpg",
+        "v8-p12-3.jpg",
+        "v8-p12-4.jpg",
+        "v8-p12-5.jpg",
+        "v8-p12-6.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "12"
+    },
+    "CwuMyvQGJu": {
+      "title": "Bleeep blap",
+      "yearMade": "2025",
+      "size": "25\" x 25\"",
+      "description": "Acrylic, oil patel, spray paint and charcoal on wood",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p14.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "14"
+    },
+    "DN7X5YctoB": {
+      "title": "Of The Flesh and Body 4",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p15.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "15"
+    },
+    "VRfdtbIm9P": {
+      "title": "Haven",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Printmaking, Linocut block",
+      "artistId": "3p2n598O7W",
+      "imageNames": [
+        "v8-p16-1.jpg",
+        "v8-p16-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "16"
+    },
+    "UBDix87TQi": {
+      "title": "Cat Poster",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Poster design",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p17.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "17"
+    },
+    "UcumyLlGyQ": {
+      "title": "Aqueduct",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Acrylic on Canvas",
+      "artistId": "93sMr3r24l",
+      "imageNames": [
+        "v8-p18.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "18"
+    },
+    "Rp1c5wt2wB": {
+      "title": "Untitled",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Ceramics, Porcelain clay, cone 06 glazes",
+      "artistId": "3p2n598O7W",
+      "imageNames": [
+        "v8-p20-1.jpg",
+        "v8-p20-2.jpg",
+        "v8-p20-3.jpg",
+        "v8-p20-4.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "20"
+    },
+    "8TV2mZhlfT": {
+      "title": "Serenity",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Photography",
+      "artistId": "QyYuytxlsu",
+      "imageNames": [
+        "v8-p22-1.jpg",
+        "v8-p22-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "22"
+    },
+    "BPm9CiNmWk": {
+      "title": "Monochromatic",
+      "yearMade": "2025",
+      "size": "36\" x 18\"",
+      "description": "Mixed media",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p24.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "24"
+    },
+    "sTQGhk4uIR": {
+      "title": "Of The Flesh and Body 3",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p25.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "25"
+    },
+    "ps20xzaGV9": {
+      "title": "Character Study",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Nikon D3400 Camera",
+      "artistId": "x1AUbK6B1Q",
+      "imageNames": [
+        "v8-p26-1.jpg",
+        "v8-p26-2.jpg",
+        "v8-p26-3.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "26"
+    },
+    "BAnzUYosY3": {
+      "title": "Stovetop",
+      "yearMade": "2026",
+      "size": "24\" x 12\"",
+      "description": "Canvas and oil paint",
+      "artistId": "yPZWtmWzUT",
+      "imageNames": [
+        "v8-p27.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "27"
+    },
+    "ruYlYCnttx": {
+      "title": "Of The Flesh and Body 7",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p29.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "29"
+    },
+    "nRlboA5bWs": {
+      "title": "Character Study",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Nikon D3400 Camera",
+      "artistId": "x1AUbK6B1Q",
+      "imageNames": [
+        "v8-p30.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "30"
+    },
+    "HWsvBK4YHR": {
+      "title": "Amygdalus communis",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital sketch",
+      "artistId": "sH9b1lav9E",
+      "imageNames": [
+        "v8-p31.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "31"
+    },
+    "wkEQVn0ObE": {
+      "title": "invented future",
+      "yearMade": "2026",
+      "size": "18\" x 24\"",
+      "description": "Charcoal Pencil",
+      "artistId": "PqfNcIhGA4",
+      "imageNames": [
+        "v8-p32.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "32"
+    },
+    "ZvenkQL6xg": {
+      "title": "Character Study",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Nikon D3400 Camera",
+      "artistId": "x1AUbK6B1Q",
+      "imageNames": [
+        "v8-p33.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "33"
+    },
+    "eM5pOB38JO": {
+      "title": "Chrome",
+      "yearMade": "2025",
+      "size": "6\" x 4\"",
+      "description": "Foil embossing",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p34.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "34"
+    },
+    "YpqZ8WNUkZ": {
+      "title": "Mosaic Harmony",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital, Graphic design",
+      "artistId": "C6dhDQ1i80",
+      "imageNames": [
+        "v8-p35.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "35"
+    },
+    "wDMu4AEFLQ": {
+      "title": "Of The Flesh and Body 5",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p36.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "36"
+    },
+    "xTaGkVtEnU": {
+      "title": "Of The Flesh and Body 8",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p36-1.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "36.1"
+    },
+    "A5REcKMkRJ": {
+      "title": "Of The Flesh and Body 9",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p36-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "36.2"
+    },
+    "l5OZ36wXn7": {
+      "title": "Hunza Boy",
+      "yearMade": "2025",
+      "size": "6.5\" x 5\"",
+      "description": "Pencil on paper",
+      "artistId": "yqjKsdjoys",
+      "imageNames": [
+        "v8-p37.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "37"
+    },
+    "v2bzdFlPeI": {
+      "title": "Threshold",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Adobe Illustrator and Adobe Photoshop",
+      "artistId": "bLNN9vlgaL",
+      "imageNames": [
+        "v8-p38.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "38"
+    },
+    "KLvX7kbHka": {
+      "title": "clinical",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Photography, Adobe Photoshop",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v8-p39.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "39"
+    },
+    "6g4jS32I5U": {
+      "title": "Phases of Silence",
+      "yearMade": "2023",
+      "size": "",
+      "description": "Digital Photo",
+      "artistId": "pfb4SXg4RL",
+      "imageNames": [
+        "v8-p40.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "40"
+    },
+    "f78zYTRM5r": {
+      "title": "Serenity",
+      "yearMade": "2024",
+      "size": "",
+      "description": "Photography",
+      "artistId": "QyYuytxlsu",
+      "imageNames": [
+        "v8-p41.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "41"
+    },
+    "RSepwZNq4c": {
+      "title": "limestone",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Photography, Adobe Photoshop",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v8-p42-1.jpg",
+        "v8-p42-2.jpg",
+        "v8-p42-3.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "42"
+    },
+    "7HChtJEaXa": {
+      "title": "Of The Flesh and Body 10",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p43.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "43"
+    },
+    "FGjNnZ9Xmt": {
+      "title": "After Hours",
+      "yearMade": "2025",
+      "size": "11.69\" x 16.54\"",
+      "description": "Collage using paper",
+      "artistId": "bLNN9vlgaL",
+      "imageNames": [
+        "v8-p44.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "44"
+    },
+    "CguL0vB04P": {
+      "title": "Par Chana de",
+      "yearMade": "",
+      "size": "",
+      "description": "Red Clay molded with Hand",
+      "artistId": "CO5LXUBBUq",
+      "imageNames": [
+        "v8-p45.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "45"
+    },
+    "bs3CZwzk2y": {
+      "title": "the ugly duckling",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Photography, iphone7",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p48.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "48"
+    },
+    "I27KzWNn5z": {
+      "title": "Midsummer",
+      "yearMade": "2025",
+      "size": "",
+      "description": "P5js, Digital Collage",
+      "artistId": "sH9b1lav9E",
+      "imageNames": [
+        "v8-p49.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "49"
+    },
+    "IuH5BuI95S": {
+      "title": "Granmamare",
+      "yearMade": "2025",
+      "size": "9\" x 6\"",
+      "description": "Print making",
+      "artistId": "yqjKsdjoys",
+      "imageNames": [
+        "v8-p50.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "50"
+    },
+    "3A8xLBBVZM": {
+      "title": "Of The Flesh and Body 1",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p51.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "51"
+    },
+    "Se3POv0HZo": {
+      "title": "is the world ending?",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Photography, Adobe Photoshop",
+      "artistId": "WsoVhuKE6D",
+      "imageNames": [
+        "v8-p52-1.jpg",
+        "v8-p52-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "52"
+    },
+    "6p11uibpSG": {
+      "title": "Nova and Kaia Character Work",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Acrylic paint, Canvas pad",
+      "artistId": "ZX5VLaF9Fx",
+      "imageNames": [
+        "v8-p54.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "54"
+    },
+    "cMXq3OWPqR": {
+      "title": "Of The Flesh and Body 6",
+      "yearMade": "2025",
+      "size": "",
+      "description": "Digital Photographs, edited in Lightroom and Photoshop",
+      "artistId": "yPEH5jOstM",
+      "imageNames": [
+        "v8-p56.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "56"
+    },
+    "xAzO2RFOJp": {
+      "title": "a new kind of grief",
+      "yearMade": "2025",
+      "size": "5.5\" x 8.5\", 3.5\" x 8.5\"",
+      "description": "Collage: found objects on canvas",
+      "artistId": "DhWewkTCFG",
+      "imageNames": [
+        "v8-p57.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "57"
+    },
+    "iIDIxQvXRl": {
+      "title": "Ice",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Photography",
+      "artistId": "a4ot11j5wj",
+      "imageNames": [
+        "v8-p58.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "58"
+    },
+    "HDddO6kpUv": {
+      "title": "Swirl",
+      "yearMade": "2025",
+      "size": "12\" x 12\"",
+      "description": "",
+      "artistId": "sH9b1lav9E",
+      "imageNames": [
+        "v8-p59.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "59"
+    },
+    "1xG6ATy7Wv": {
+      "title": "Swirls",
+      "yearMade": "2025",
+      "size": "10\" x 15.5\" x 9\"",
+      "description": "Plaster and Beads",
+      "artistId": "1Fzzt4cfZN",
+      "imageNames": [
+        "v8-p60-1.jpg",
+        "v8-p60-2.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "60"
+    },
+    "gPIU9Y6Xu5": {
+      "title": "Massive Thoughts",
+      "yearMade": "2026",
+      "size": "7\" x 12\"",
+      "description": "Pen on paper",
+      "artistId": "93sMr3r24l",
+      "imageNames": [
+        "v8-p61.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "61"
+    },
+    "TAYwILhjkA": {
+      "title": "Herald of the Heretics 1",
+      "yearMade": "2026",
+      "size": "",
+      "description": "Digital Photography",
+      "artistId": "ASTjcosERi",
+      "imageNames": [
+        "v8-p62.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "62"
+    },
+    "XRjU2vRW1n": {
+      "title": "Hercules",
+      "yearMade": "2025",
+      "size": "12\" x 8.5\"",
+      "description": "Printmaking",
+      "artistId": "yqjKsdjoys",
+      "imageNames": [
+        "v8-p63.jpg"
+      ],
+      "issueId": "8",
+      "pageNumber": "63"
+    }
   },
   "artists" : {
     "chLSbRZvaL": {
@@ -3762,7 +5801,8 @@
       "graduationYear":"",
       "issueIds": [
         "4",
-        "5"
+        "5",
+        "6"
       ]
     },
     "7Yl77nksPX": {
@@ -4258,7 +6298,8 @@
       "graduationYear":"",
       "issueIds": [
         "4",
-        "5"
+        "5",
+        "6"
       ]
     },
     "Mo2Wr2LzT1": {
@@ -4313,7 +6354,8 @@
       "artworks": null,
       "graduationYear": "",
       "issueIds": [
-        "5"
+        "5",
+        "7"
       ]
     },
     "JFywBuPsIq":{
@@ -4322,7 +6364,8 @@
       "artworks": null,
       "graduationYear": "",
       "issueIds": [
-        "5"
+        "5",
+        "6"
       ]
     },
     "lMTPz2O39a":{
@@ -4403,7 +6446,8 @@
       "artworks": null,
       "graduationYear": "",
       "issueIds": [
-        "5"
+        "5",
+        "6"
       ]
     },
     "J4Owt30QPw":{
@@ -4448,7 +6492,8 @@
       "artworks": null,
       "graduationYear": "",
       "issueIds": [
-        "5"
+        "5",
+        "6"
       ]
     },
     "pI6JUUHGMk":{
@@ -4475,7 +6520,10 @@
       "artworks": null,
       "graduationYear": "",
       "issueIds": [
-        "5"
+        "5",
+        "6",
+        "7",
+        "8"
       ]
     },
     "2R8dlR38QE":{
@@ -4487,7 +6535,520 @@
         "5"
       ]
     }
-
+,
+    "DhWewkTCFG": {
+      "artistID": "DhWewkTCFG",
+      "name": "Mia Palmer",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "ssm582Xztz": {
+      "artistID": "ssm582Xztz",
+      "name": "Isabelle Etheridge",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "KCcGkr1vYw": {
+      "artistID": "KCcGkr1vYw",
+      "name": "Julia Maron",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "gR4ZLeTdWf": {
+      "artistID": "gR4ZLeTdWf",
+      "name": "Elliana Borreca",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "knipeahy5Z": {
+      "artistID": "knipeahy5Z",
+      "name": "Ellie Krueger",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "mm3zIw6LZz": {
+      "artistID": "mm3zIw6LZz",
+      "name": "Ford Walters",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "H7ZR7PBYRI": {
+      "artistID": "H7ZR7PBYRI",
+      "name": "Soran Rubio",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "yqYPAfD11t": {
+      "artistID": "yqYPAfD11t",
+      "name": "Aleah Schallack",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "4bsJMurlZy": {
+      "artistID": "4bsJMurlZy",
+      "name": "Eric Xu",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "pX6owavjNM": {
+      "artistID": "pX6owavjNM",
+      "name": "Kevin Cox",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "QWjHpO2kdt": {
+      "artistID": "QWjHpO2kdt",
+      "name": "Grace Zeman",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "Pjl8ptUs7i": {
+      "artistID": "Pjl8ptUs7i",
+      "name": "Susan Gibbs",
+      "artworks": null,
+      "graduationYear": "",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "634RWJLTFz": {
+      "artistID": "634RWJLTFz",
+      "name": "Karine Cajigas",
+      "artworks": null,
+      "graduationYear": "",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "IziOSayrNE": {
+      "artistID": "IziOSayrNE",
+      "name": "Aidan McMurtrie",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "MlfxZJJaPr": {
+      "artistID": "MlfxZJJaPr",
+      "name": "McKenzie Tell",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6",
+        "7"
+      ]
+    },
+    "ucpp6c87Sx": {
+      "artistID": "ucpp6c87Sx",
+      "name": "Kim Reyes",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "oEGxdEc5QH": {
+      "artistID": "oEGxdEc5QH",
+      "name": "Abigail Waltenberry",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6",
+        "7"
+      ]
+    },
+    "V3ShzlQtZl": {
+      "artistID": "V3ShzlQtZl",
+      "name": "Zo Peterson",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "fJDkIay8Eu": {
+      "artistID": "fJDkIay8Eu",
+      "name": "Christina Donovan",
+      "artworks": null,
+      "graduationYear": "2024",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "20PKu2mSLT": {
+      "artistID": "20PKu2mSLT",
+      "name": "Nola Waltson",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "sixIrulfDE": {
+      "artistID": "sixIrulfDE",
+      "name": "Suyash Chitrakar",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "6",
+        "7"
+      ]
+    },
+    "HEeQYjYQNz": {
+      "artistID": "HEeQYjYQNz",
+      "name": "Zoë Valentine Grigoroff",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "6"
+      ]
+    },
+    "RJXvBGlG0D": {
+      "artistID": "RJXvBGlG0D",
+      "name": "Drishti Shrestha",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "6",
+        "7"
+      ]
+    },
+    "XuoYhDILjN": {
+      "artistID": "XuoYhDILjN",
+      "name": "Alex Halleck",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "fWHmlfmIBR": {
+      "artistID": "fWHmlfmIBR",
+      "name": "Lenore Marshall",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "Qfsf045UJd": {
+      "artistID": "Qfsf045UJd",
+      "name": "Lea Martland",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "2iqVfkb7oF": {
+      "artistID": "2iqVfkb7oF",
+      "name": "Ren Herzog",
+      "artworks": null,
+      "graduationYear": "2025",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "rClKebif2F": {
+      "artistID": "rClKebif2F",
+      "name": "Audra Steinbrugge",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "UIRtePiwWd": {
+      "artistID": "UIRtePiwWd",
+      "name": "Ahmad Pattal",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "HPeI9ySlDH": {
+      "artistID": "HPeI9ySlDH",
+      "name": "Manavi Subba",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "x1AUbK6B1Q": {
+      "artistID": "x1AUbK6B1Q",
+      "name": "Kaya Wolf",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7",
+        "8"
+      ]
+    },
+    "WsoVhuKE6D": {
+      "artistID": "WsoVhuKE6D",
+      "name": "Sania Shetty",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "7",
+        "8"
+      ]
+    },
+    "SPXbRBxXi5": {
+      "artistID": "SPXbRBxXi5",
+      "name": "Shafay Hussain",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "bFbtgrhQGV": {
+      "artistID": "bFbtgrhQGV",
+      "name": "Vincent Tang",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "RQ9htGX9Yf": {
+      "artistID": "RQ9htGX9Yf",
+      "name": "Lyn Kress",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "rfm23EDQvx": {
+      "artistID": "rfm23EDQvx",
+      "name": "Zoë Grigoroff",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "8y0Gb5QJBa": {
+      "artistID": "8y0Gb5QJBa",
+      "name": "Naysha Jain",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "CBOicgbCfC": {
+      "artistID": "CBOicgbCfC",
+      "name": "Nicole Ruby",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "IGnejvk2sA": {
+      "artistID": "IGnejvk2sA",
+      "name": "Ali Mahmood",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "N0a8uJ5M6T": {
+      "artistID": "N0a8uJ5M6T",
+      "name": "Jay Kronbach",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "7"
+      ]
+    },
+    "yPEH5jOstM": {
+      "artistID": "yPEH5jOstM",
+      "name": "Karter Long",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "7",
+        "8"
+      ]
+    },
+    "yl3MGR0Qi9": {
+      "artistID": "yl3MGR0Qi9",
+      "name": "Ethan Tozer",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "3p2n598O7W": {
+      "artistID": "3p2n598O7W",
+      "name": "Quinn Mika",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "93sMr3r24l": {
+      "artistID": "93sMr3r24l",
+      "name": "Zoe Grigoroff",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "QyYuytxlsu": {
+      "artistID": "QyYuytxlsu",
+      "name": "Hissan Tahir",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "yPZWtmWzUT": {
+      "artistID": "yPZWtmWzUT",
+      "name": "Jill Rochford",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "sH9b1lav9E": {
+      "artistID": "sH9b1lav9E",
+      "name": "Zenitha Chalise",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "PqfNcIhGA4": {
+      "artistID": "PqfNcIhGA4",
+      "name": "Nairran Farooq",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "C6dhDQ1i80": {
+      "artistID": "C6dhDQ1i80",
+      "name": "Manha Awais",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "yqjKsdjoys": {
+      "artistID": "yqjKsdjoys",
+      "name": "Eesha Bukhari",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "bLNN9vlgaL": {
+      "artistID": "bLNN9vlgaL",
+      "name": "Arwa Ayaz",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "pfb4SXg4RL": {
+      "artistID": "pfb4SXg4RL",
+      "name": "Shaswot Karki",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "CO5LXUBBUq": {
+      "artistID": "CO5LXUBBUq",
+      "name": "Mayni Puranik",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "ZX5VLaF9Fx": {
+      "artistID": "ZX5VLaF9Fx",
+      "name": "Lizzie Swanson",
+      "artworks": null,
+      "graduationYear": "2027",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "a4ot11j5wj": {
+      "artistID": "a4ot11j5wj",
+      "name": "Tisya Goel",
+      "artworks": null,
+      "graduationYear": "2026",
+      "issueIds": [
+        "8"
+      ]
+    },
+    "ASTjcosERi": {
+      "artistID": "ASTjcosERi",
+      "name": "Qasim Kazmi",
+      "artworks": null,
+      "graduationYear": "2028",
+      "issueIds": [
+        "8"
+      ]
+    }
   },
   "staff" : {
     "2018" : {
@@ -4618,6 +7179,101 @@
           "role" : "Faculty advisor / mentor"
         }
       ]
+    },
+    "2024" : {
+      "year" : "2024",
+      "staff" : [
+        {
+          "name" : "James Adamson",
+          "role" : "Designer / Artwork photographer"
+        },
+        {
+          "name" : "Ellen Miller Garrett",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Urvi Bohra",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Drishti Shrestha",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Sania Shetty",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Aidan McMurtrie",
+          "role" : "Designer / Artwork photographer"
+        },
+        {
+          "name" : "An Trieu",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
+    },
+    "2025" : {
+      "year" : "2025",
+      "staff" : [
+        {
+          "name" : "Urvi Bohra",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Suyash Chitrakar",
+          "role" : "Designer / Artwork photographer"
+        },
+        {
+          "name" : "Drishti Shrestha",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Sania Shetty",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
+    },
+    "2026" : {
+      "year" : "2026",
+      "staff" : [
+        {
+          "name" : "Urvi Bohra",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Sania Shetty",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Arwa Ayaz",
+          "role" : "Designer / Artwork photographer"
+        },
+        {
+          "name" : "Manha Awais",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Zenitha Chalise",
+          "role" : "Designer"
+        },
+        {
+          "name" : "Nairran Zargar",
+          "role" : "Designer / Developer"
+        },
+        {
+          "name" : "Tim Stedman",
+          "role" : "Faculty advisor / mentor"
+        }
+      ]
     }
   },
   "essays" : {
@@ -4699,6 +7355,64 @@
         "Keys, Kathleen. “Contemporary Visual Culture Jamming: Redefining Collage as Collective, Communal, & Urban.” Art Education 61, no. 2 (2008): 98–101. http://www.jstor.org/stable/27696284.",
         "Knelman, Sara. 2021. “The Women Artists Who Find Freedom in Collage.” Aperture Foundation. https://aperture.org/editorial/the-women-artists-who-find-freedom-in-collage/. Owens, Emily. 2021. “New Collection.” New Collection. https://www.newcollection.com/fragments-blogs/collage-as-a-process-for-reclamation-black-collage-in-conversation-with-teri-henderson.",
         "Raaberg, Gwen. “Beyond Fragmentation: Collage as Feminist Strategy in the Arts.”Mosaic: An Interdisciplinary Critical Journal 31, no. 3 (1998): 153–71. http://www.jstor.org/stable/44029815."
+      ]
+    },
+    "borders": {
+      "issueId": 6,
+      "title": "Borders/Boundaries",
+      "author": "Red Engel",
+      "graduationYear": "25",
+      "paragraphs": [
+        "Today, when a theme of borders/boundaries is mentioned, the first association is likely political and state-recognized borders, the arbitrary lines in the sand dividing your land from my land. This connection of political border/boundary definition into art is an easy and natural tie to draw when discussing the topic with today’s contemporary reader. It is near impossible with the current social and political climate to fully segregate these associations from anything that is even tangentially related. We live in a time where the frequency with which we discuss borders has never been more prevalent. Several wars across the world are ongoing; the Israel-Palestine conflict and the Russian-Ukraine war to give a few examples – and within the US there are active political movements to strengthen nationalistic border security and control. The current migrant crisis at the Southern border with Mexico has reached unbelievable highs, thousands in detention camps and more calls for increased border patrol every day. Beyond that in the socio-political sense, there are many boundaries on what is acceptable in day-to-day life – between gender, sexuality, and bodily autonomy rights – being dismantled and re-established by reactionary forces on both sides. Currently, many people exist within very narrow parties under partisan politics, and rigidly demarcated ideological mindsets. Far too often, matters are purely black and white, with the thinnest border between topics. It is under these extreme conditions that the topic of boundaries/borders in art comes under a new type of spotlight.",
+        "In the past, this kind of overlap, especially in contemporary work, would not have been accepted. At the turn of the 20th century, there arose a desire within the American public to create their own artistic culture and style different from European art. This, in part, was an attempt at strengthening American nationalism. This movement struggled in the beginning before briefly succeeding with American regionalism landscape paintings It later failed due to the rise of facism in Europe influencing the American public to view regionalism as fascist for its deep ties to American nationalism. Clement Greenburg wrote a series of essays that was published in a book that brought him and formalist art back into the popular consciousness. Formalism is a critical theory that brings the focus on art to its baseline traits, or formal elements, like color, line, shape, and texture. It is an extremely rigid line defining what art can and cannot do. Greenburg himself emphasized the importance of paintings being flat and purely pictorial. A painting was a flat plane – not a window, not a picture, not reality – and pretending otherwise did a disservice to their existence.¹",
+        "In his 1940 essay written for Partisan Review, “Toward a Newer Laocoon,” Greenburg writes: “The avante-garde arts have in the last fifty years achieved a purity and radical delimitation of their fields of activity for which there is no previous example in the history of culture. The arts lie safe now, each within its ‘legitimate’ boundaries [...] Purity in art consists in the acceptance, willing acceptance, of the limitations of the medium of the specific art.”³ Greenburg created his own definitions on what was “good” in art. He also believed that interactions or direct calls to current political events were damaging to the integrity of the art itself. His purist and formalist critical theories on painting and sculpture had distinct self-defining properties and formal criteria – criteria that did not allow any socio-political influence whatsoever.⁴ These theories were established at a time where socio-political discussions were at an all-time high. Later critics such as Lucy Lippard argued Greenburg and his prominent follower Michael Fried had this stance on political allusions in art due to a fear of feminist artists at the time challenging the patriarchy.",
+        "Greenberg and later his followers taking this strong formal, purist and authoritative stance on abstract art created the opposite intended effect. Greenburg and Freid originally wanted to use these criteria to encourage a more experimental, but directed, effort in expanding the field of art. However his formalist writings and stance created pushback across the art world. With the 60s full of so many social rights fights, formalism was no longer acceptable. Process art, Earth art and installations challenged the strict purity of formalism by combining materials and incorporating actual space into art and performative elements. Robert Morris’s Earthwork (1979) brought together organic material with industrial ones and placed them outside the purist artificial environment of the gallery and into the physical reality. Artmaking moved from the confined boundaries of galleries and studios into nature with Earth art and site-specific sculpture – as well as charged performances and process-pieces that were drenched in layers of socio-political meaning. It was the revolutionary beginnings of postmodern art, with radical mixed media practices that are now paramount in contemporary art and can be seen in Knox Student work.",
+        "Today, these complex and layered concepts make discussing art inherently political, especially based in its medium – and the topic of borders/boundaries in art having multi-faceted content beyond purely political or historical context. When we turn to our contemporary artists – those within X Journal, these various points push one to consider what the artist is saying and doing with the art alone. Mixed media artist Ellen Miller Garrett uses collage and a variety of materials to create many small, free-formed pieces that spill out and beyond the traditional expected borders of a piece. Look closer - look away (page 14-15) is one such piece and consists of several magazine clippings that weave in and out of one another. In the center, underneath several other pictures is a bird. Below that and to the left is a small black and white picture of a cat, its leftmost side carefully cut out to follow the edge of its furry body. To the right, and positioned between the two, is a black and white picture of two men pressing their chins together and sticking their tongues out, nearly touching. Overlapping are various clippings and pieces of nature, bunches of flowers and leaves and bits of water. A newspaper clipping of text that reads “to you.’” is also directly underneath the boys’ heads. This, in combination with other pieces from Garrett, creates a narrative that expands upon gender and the expectations of society upon different roles one is required to take.",
+        "Collage as a medium has this same rich history that challenges what belongs within the bounds of art. While more widely accepted today as a field of art – it, along many of the other previously mentioned mixed mediums, did not go without struggle for that recognition. Existing on pre-made materials, artists mix together appropriated images from photography and commercial media. The medium specific boundaries found in painting etc., are ignored and challenged by the integration of these different materials and kinds of imagery. Collage often challenged traditional forms of artistic perception and demands a more interpretive form of response from the viewer – calling for critical forms of seeing and determining meaning for artworks. Spawned from several sources, collage's current form as we know it today got its roots in cubism, with most famously Piccaso’s collage The guitar (1913) – which depicted a cubist rendering of guitars made from various materials and a clipping of a local french newspaper. Collage was a natural development from cubism, as the ability to showcase clearly each plane of an object was done very easily within collage.",
+        "Later, Dada artists used collage to make political mockery and social satire, using clippings from newspapers and magazines to create their messages more effectively. In both Dada work – and fellow mixed media mediums like constructivism and suprematism – collage took on a political, propagandistic role in society. John Heartfield created many political collages, which were referred to as photomontages at the time. One piece of his, Der Sinn Des Hitlergrusses: Kleiner Mann bittet um grosse Gaben (1932), or in English “The Meaning of the Hitler Salute: Little Man asks for big gifts,” has a picture of Hitler with his hand up for the salute performed weakly, with his hand behind his head. Added to this is an enlarged picture of a man, more than double the side of Hitler, who holds out several bills to be placed in Hitler’s waiting hand. The title is written in German with text taken from magazine’s over the picture - creating clear anti-facist propaganda commentary on Hitler.⁴ The use of photographs plays on the innate human desire to treat photographs as objective truth. While logically a viewer might be able to recognize or even be aware of the exact methods in which a doctored photograph has been put together – the brain sees past these edits and readily accepts them as reality. In many ways, Cubist and Dada collage are a radical statement against artistic boundaries in terms of content, that art is not purely aesthetic but allows larger political and social issues to be a part of art. Art crosses over between aesthetic and social boundaries, which do not exist in the first place within art. Radical forms of modern and contemporary art challenge this false belief and disrupt it.",
+        "Another piece that showcases some of these socio-political concepts on borders/boundaries within art is Midwestern Beach Day (page 17) by Aleah Schallack, which consists of 9 photographic prints arranged in an imperfect grid. Underneath the prints are smears and washes of pinks, purples and blues, incongruent with the photographic material or the grid placement. The photograph prints depict a cracked lakebed and a line of trees at the far edge. Each picture is slightly different than those surrounding it – and large blotches of black are peppered around the entire piece in random locations – as well as other black and white photograph prints, consisting of completely different subject material, torn and affixed in various locations as well on the piece. A single long strip of thin lace stretches across the work and is placed diagonally slightly off center atop the entire piece. This manipulation of the medium and disregard for the expected traditions of both classic printmaking and photography plays further into this push beyond the bounds of formal art.",
+        "Most curious perhaps are some of the sculptural works – one of which is a large ball named Fallout (page 38) that sits nearly five feet tall, created by Zo Peterson. Its surface is covered in black industrial trash bags. The material is twisted and pulled across the surface to create a thick, knotted web that creates an uncanny feeling of organic material, partially melted and the swirling pattern almost creating an illusion of it oozing. Using found materials like trash bags comes from a contemporary movement of the readymade sculpture. The readymade is a concept created by Marcel Duchamp, who aimed at addressing the concept that there is art in anything as long as you declare it so – that our social recognition of something labeled as art is more powerful than the materials or objects that create this art. In bringing objects into the gallery space which represented social realities and issues that exist outside the boundaries of the gallery, Duchamp challenged the purist ideas of the gallery space. Duchamp’s most famous work, Fountain (1917), is a urinal placed on its back and signed in black paint with “R. Mutt. 1917.” Duchamp would do this often, and by taking industrial and machined pieces, he would create a gallery space that questioned the viewer on what it meant for something to be an art piece by directly bringing into contradiction the traditional definitions for said art. Sculptures made of easily recognizable materials like trash bags bring with them as well the social connotations we carry about those materials. Furthermore, sculpture itself is something that continually struggles to find a place within formalist theory. A sculpture inherently creates a relationship between the viewer and the object – as well as both the space the object occupies and the space it does not occupy.",
+        "This artistic tendency toward mixed media and lack of medium purity within this edition of X Visual Arts Journal reflects larger social and political impulses to break beyond these boundaries created today. It shows the desire to not be controlled and confined within rigid conservative laws and conditions, or within the traditions of both the mediums of their choice and the larger art industry. Art cannot and should not be separated from socio political narratives. It is a part of life that these connections exist and that these layers of context affect our reality and our perception of all things, especially art. Consider what it means to have a border, a boundary – and what it takes for one to cross such a line. Where do we draw these edges within society, on which topics and what politics make a divide? What creates these separations and when is it acceptable to cross them, or even destroy them? Art constantly holds these questions, pushes past all borders/boundaries, and tells audiences that the answer is always: the time to act is now.",
+        "1. Clement Greenburg. “Towards a Newer Laocoon.” ed. David Shapiro and Cecile Shapiro, Abstract Expressionism: A Critical Record. Cambridge; England. Cambridge University Press, 1990\nFootnotes",
+        "2. Greenburg, “Towards a Newer Laocoon.” p. 69",
+        "3. Greenburg, “Towards a Newer Laocoon.”",
+        "4. John Heartfield. Der Sinn Des Hitlergrusses: Kleiner Mann bittet um grosse Gaben. Merril C. Berman Collection. 1932. https://mcbcollection.com/john-heartfield",
+        "Clement Greenburg. “Towards a Newer Laocoon.” ed. David Shapiro and Cecile Shapiro, Abstract Expressionism: A Critical Record. Cambridge; England. Cambridge University Press, 1990.\nReferences",
+        "John Heartfield. Der Sinn Des Hitlergrusses: Kleiner Mann bittet um grosse Gaben. Merril C. Berman Collection. 1932."
+      ]
+    },
+    "liminal": {
+      "issueId": 7,
+      "title": "Liminal",
+      "author": "Leo Dunn",
+      "graduationYear": "25",
+      "paragraphs": [
+        "A pear that is perfectly ripe and moldy, a space in time between this juncture and the next. Liminality suggests a moment untethered to a before or after, where uncertainty is standard, and human presence is an afterthought. In today's world we are taught to search for distraction, keep busy, to plan for the next thing or reflect on the last. We aspire to reject that humans themselves are tangible liminality, only a brief gathering of energy and matter. Art allows for an entryway to reflect on one's own impermanence in this fleeting moment between emergence and return.",
+        "The concept of liminality has clear connections to Surrealism, which was an artistic movement that emerged in the 1920s. Surrealists aimed to illustrate the unconscious mind and often used dreamlike representations to convey a world between reality and fiction. The landscapes and imagery used in surrealism relate to viewers' own lives and experiences, yet includes warped or unexpected elements that are impossible in actuality: a door in an expansive empty desert, a figural gathering of abstracted stacked objects, or a melting clock. The worlds that surrealists create are nestled subdermally between illusion and reality, and lift the curtain between the mind of the artist and the viewer. Surrealist artists consistently entered a liminal space by purposefully employing the unconscious mind in their work. By recording that state of being, viewers are also allowed entry to liminality through a visual relation that extends across time and space. Similarly to Surrealism, the work of Impressionists also relates to the notion of liminality, but through a more specific exchange between artist and a moment in time.",
+        "Impressionism aimed to capture fleeting moments in nature or of human experience, that emphasized complex interactions of light within a setting. Through capturing specific qualities of light in relation to human perception of time and space, Impressionists were able to document a momentary aspect of life by sifting it through their own perception and representation. The significance of light within Impressionist paintings communicates an experience of time that relates to visual recognition, as well as physical sensations. The viewer is able to encounter the life the artist depicted, in addition to the mind of the artist themselves. Through these works, a connection is formed between an otherwise unobtainable moment, a specific perspective, and the insertion of a viewer outside of time and space.",
+        "Through creating a piece of art, an artist enters an interwoven liminal space. Art suspends time by recording evidence of a physical and cerebral force, and cementing it in something discernible; a stroke of oil paint, thumb prints in clay, a finger activating a shutter, or a crease in paper. Art is the crystallization of a state of mind or experience that would otherwise be lost in the tumble of time. A work of art is made solely because of the artist; the subliminal want or enjoyment in the act of creating. The art is dependent on the maker, the specific time and space it was created in, and all that led up to its conception. Yet, the art object lives on outside of the specificity of its creation. As a piece of art ages, it entangles the perceptions and experiences of others within its existence, and morphs into an object that is held in an intricate liminal weaving.",
+        "Art resides in an amorphous, boundless field of time as a pure testimony of ephemeral life. The viewing and creation of art allows for connection and an extension of oneself that is independent of our own mortality. Entering a liminal space through art can clarify the reality of one's own transient existence without an emphasis on individual priority. Art allows for perpetual associations between artist, viewer, and object, that eclipses space and time and embraces liminality.",
+        "Nostrand, Jess Van. “Slippage: Thoughts on Liminal Space in Contemporary Art.” Medium, Art Adjacent, 31 July 2022, medium.com/art-adjacent/slippage-thoughts-on-liminal-space-in-contemporary-art-68d68d46ae75.\nReferences",
+        "Picu, Lavi. “Liminality and Art: Finding Strength in the in-Between.” Lavi Picu Art, Lavi Picu Art, 26 May 2025, www.lavipicu.com/blog/liminality-and-art-finding-strength-in-the-in-between."
+      ]
+    },
+    "kalopsia": {
+      "issueId": 8,
+      "title": "Kalopsia",
+      "author": "Zeytin Ercan",
+      "graduationYear": "26",
+      "paragraphs": [
+        "Kalopsia refers to the romanticized presentation and perception of otherwise dark concepts as being softer and more beautiful than they are in actuality. Kaloptic portrayals were extremely common during the Renaissance, as artists like Leonardo DaVinci and Titian frequently utilized classicized visual traits in order to idealize the harsher emotional and political realities they portrayed in their works. Starting with the rise of realism in the 19th century and continuing with modernism in the early 20th century, the art world saw a notable shift from this sort of romanticization, with a stronger creative focus on more earnest, confrontational portrayals of hardship. For the past century or so, artistic portrayals of kalopsia have often served as ironic critiques of the phenomenon itself in societal practice, utilizing the dichotomy of beauty and tragedy to emphasize the unwillingness many have to examine and accept hard truths.",
+        "As an example, we often see kaloptic aesthetics present in feminist works that focus on the societal expectations of women. In such cases, kalopsia may be employed to stress the weight and cruel nature of misogyny by contrasting it with the delicate, composed expectations of femininity. Nowhere is this feminist employment of kalopsia better exemplified than in the work of surrealist icon Frida Kahlo.",
+        "By design, kalopsia requires tragedy as a prerequisite. While Kahlo’s work as a surrealist explored a variety of interpersonal issues, such as gender, sexuality, and race, it was the physical and psychological scars she bore as a result of a traumatic collision in her youth that most vividly informed the bulk of her work. On September 25, 1925, an 18 year old Kahlo was severely injured in a near fatal bus accident, wherein, along with having sustained multiple fractures in her back, pelvis, right leg and foot, her abdomen and uterus had been pierced by a metal rail.",
+        "This was not Kahlo’s first bout with such physical trauma, as the artist’s polio infection at the age of six had left her with a disfigured right leg. As a result of her injuries, Kahlo would go on to endure more than thirty reparative surgeries in the remaining 20 years of her life, as well as several miscarriages and therapeutic abortions. I highlight Kahlo’s tragic story not to reduce her to martyrdom, but to emphasize the juxtaposition of that tragedy with the beauty of her work.",
+        "Take her iconic 1940 piece, Self-Portrait with Thorn Necklace and Hummingbird. The painting portrays the quintessential vision of Kahlo we have come to know today. A front-facing portrait capturing Kahlo from the chest up, the piece centers the artist in front of a lush, leafy backdrop. She is flanked by a small black monkey on her right shoulder, and by a black cat on her left, while her neck and chest are decorated with a necklace-like collection of thorny vines. As the thorns draw blood from her neck, Kahlo’s gaze remains calm and graceful, exemplifying her quiet and patient endurance through her chronic pain. Kahlo relies on this dichotomy between beauty and pain to successfully convey her brutal physical and psychological state. Her surrealist aesthetic makes the more romanticized, visually pleasing elements of the piece – such as the serene colors and floral motifs – feel somewhat aspirational. Indeed, it is in the contrasting, underlying sense of quiet tragedy that the piece becomes as striking and emotionally evocative as it is.",
+        "There is an almost symbiotic relationship between visual pleasure and thematic tragedy in kaloptic art, wherein one necessitates the other to achieve aesthetic success. In Self-Portrait with Thorn Necklace and Hummingbird, Kahlo’s technical skill speaks for itself — the seemingly effortless rendering on her skin, the meticulously detailed brushwork in her hair, and the striking composition of the backgrounded greenery. There is inherent beauty in Kahlo’s technique and in the romantic visual elements of the piece, but once isolated from the theme, these visual elements are unable to reach their full aesthetic potential. In a similar vein, a more literal portrayal of Kahlo’s pain would certainly be emotionally stirring, but would perhaps lack the nuance and artistry required to make the image truly representative of Kahlo’s complex mental and emotional state.",
+        "In this way, the balance that Kahlo strikes between beauty and pain is wholly essential in her aesthetic mission. It is the overwhelming serenity in her choice of floral color palette and in her gorgeous technique that makes the subtly pained look in her eyes that much more haunting.",
+        "The nature of portraiture is such that the audience is meant to perceive the subject as being somewhat suspended in time. This sort of stillness is typically captured through having the subject statically posed for the artist, often for hours on end. However, in Kahlo’s piece, the perpetuity of the portrait is effectively disrupted by the thorns piercing her neck, as the blood slowly tracing downward creates a sense of time and motion that becomes impossible to ignore. The audience is met with visions of the real Kahlo posed for her own portrait, experiencing the pain of the thorny vines in real time as she patiently sits through the anguish, waiting for her image to be captured. Being the subject of a self-portrait, Kahlo, of course, never actually posed in such a way, but the metaphorical image of her as a static model quietly bleeding still stands as an extremely effective analogy for her chronic pain.",
+        "The grand irony in all of this, of course, is that this complex, intentionally romanticized image of Kahlo we get in Thorn Necklace and Hummingbird has become the only image of Kahlo we see. The iconic unibrow, hair braided and adorned with flowers. This singular face of Kahlo has almost become a work entirely separate to the artist herself, as her image is plastered on tote bags, T-shirts, and other consumer goods. Her face has become synonymous with a girl-bossified, commercial sort of feminism, one that values Kahlo as a feminist symbol rather than as an accomplished feminist artist. In this distilled proliferation of her image, the underlying tragedy of Kahlo’s work is somewhat lost.",
+        "While the kalopsia present in Thorn Necklace and Hummingbird was common in Kahlo’s works, the breadth of her artistic collection included several pieces with more overt allusions to her medical trauma. In Henry Ford Hospital (The Flying Bed) (1932), Kahlo portrays herself naked on a hospital bed, laying in a pool of her own blood following a miscarriage. Surrounding her are six floating figures — including an unborn fetus, a medical diagram of a uterus, and a wilted orchid flower — each attached to her stomach via a red ribbon, reminiscent of an umbilical cord. Here, Kahlo’s pain is not conveyed through metaphor, but through emotionally raw, visceral imagery and gritty, surrealist composition. Unlike Thorn Necklace and Hummingbird, here, Kahlo forces the audience to sit uncomfortably with her pain — to see it on her face and acknowledge the immense trauma she has endured. Works like Henry Ford Hospital are no more or less valuable than kaloptic pieces such as Thorn Necklace and Hummingbird, but it is worth questioning whether or not Kahlo would have been selected as this prime feminist symbol had she never utilized romanticization in her art. Women have historically been expected to cloak their own hardship, both internal and external, in an idealized, palatable sort of veil, and by ignoring Kahlo’s more vulnerable, uncomfortable portrayals of her pain entirely in favor of those that portray her endurance and strength, we uphold the notion that the struggles of women are only note-worthy in the past-tense. In this way, Kahlo’s work has posthumously acquired a secondary kaloptic layer, one that is not intentionally employed by the artist herself, but necessitated by her avoidant audience.",
+        "This issue of Xjournal seeks to explore the full spectrum of kalopsia, from being a necessary comfort to an irresponsible form of avoidance. The works selected for this issue provide various artistic contemplations on the legitimacy and morality of kalopsia, begging the question, in a moment defined by social, political, and technological crisis, is romanticization a necessary tool for navigating this hardship, or merely an unhealthy obfuscation of the truth? These works invite us to consider the social responsibility of art to confront difficult realities and its ability to encourage viewers to do the same."
       ]
     }
   }

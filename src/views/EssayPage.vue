@@ -1,31 +1,22 @@
 <template>
-  <div id="essay--wrapper" class="serif pa3 pa0-ns mt0 ma0-ns">
-    <div class="fl-ns w-25-ns w-0 ma0 pa0" style="height: 1px;">&nbsp;</div>
-    <Essay class="fl-ns w-50-ns pb0-ns"
-      id="essay--display-wrapper"
-      :issue="issue.essayId"/>
-  </div>
+  <SiteShell scroll :issue-id="issueIndex">
+    <Essay v-if="issue && issue.essayId" :issue="issue.essayId" />
+    <p v-else class="essay-empty">No essay in x{{ issueIndex }}.</p>
+  </SiteShell>
 </template>
 
 <script>
+import SiteShell from '@/components/SiteShell.vue'
 import Essay from '@/components/Essay.vue'
 import sourceData from '@/data'
 
 export default {
+  components: { SiteShell, Essay },
   props: {
     issueIndex: {
-      require: true,
+      required: true,
       type: String
     }
-  },
-  methods: {
-    resetScrollToTop () {
-      document.body.scrollTop = 0
-      document.documentElement.scrollTop = 0
-    }
-  },
-  components: {
-    Essay
   },
   computed: {
     issue () {
@@ -34,3 +25,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.essay-empty {
+  margin: 0;
+  padding-top: 20vh;
+  text-align: center;
+}
+</style>
