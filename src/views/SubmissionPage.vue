@@ -24,8 +24,8 @@
           <a class="submit__button" target="_blank" rel="noopener" :href="formUrl">open the submission form</a>
 
           <h2 class="submit__head">timeline</h2>
-          <p class="submit__text">submissions will close in April in Spring Term 2026.</p>
-          <p class="submit__text">issue 8 will be released later in 2026.</p>
+          <p class="submit__text">submissions will be open every term.</p>
+          <p class="submit__text">issue 9 will be released later in 2027.</p>
 
           <h2 class="submit__head">questions</h2>
           <p class="submit__text">
