@@ -38,6 +38,7 @@ uniform vec3 u_bg;
 // Each frame's contained rectangle, as width/height fractions of the canvas.
 uniform vec2 u_fromBox;
 uniform vec2 u_toBox;
+uniform float u_octaves;
 
 varying vec2 v_uv;
 
@@ -72,6 +73,7 @@ float fbm(vec2 v) {
   float value = 0.0;
   float amplitude = 0.5;
   for (int i = 0; i < 5; i++) {
+    if (float(i) >= u_octaves) break;
     value += amplitude * snoise(v);
     v *= 2.0;
     amplitude *= 0.5;
@@ -136,12 +138,29 @@ const easeInOutQuint = t => {
   const x = Math.min(Math.max(t, 0), 1)
   return x < 0.5 ? 16 * Math.pow(x, 5) : 1 - Math.pow(-2 * x + 2, 5) / 2
 }
+// The quintic's middle is too steep to survive a low frame rate, so slow machines get this one.
+const easeGentle = t => {
+  const x = Math.min(Math.max(t, 0), 1)
+  return x * x * (3 - 2 * x)
+}
 
 // How many frames either side of the current one are kept loaded as textures.
 const KEEP = 2
 // Largest texture side we upload; some source images are several thousand pixels and
 // many MB, and uploading those at full size freezes the page.
 const MAX_TEXTURE = 2048
+// A dissolve always gets at least this many steps, however long a frame takes. It runs longer on
+// a slow machine rather than skipping ahead, which would look like a plain cut.
+const MIN_STEPS = 10
+// A dissolve averaging slower than this counts as a slow one.
+const SLOW_FRAME_MS = 40
+// One slow dissolve only lightens the animation, which costs no picture quality. The canvas is
+// capped only after more of them, so one hiccup can't soften the artwork; fast machines stay at
+// full resolution.
+const PIXEL_CAPS = { 2: 2200000, 3: 1200000 }
+
+// Kept across page changes, so a slow machine isn't measured from scratch each time.
+let slowDissolves = 0
 
 export default {
   name: 'MorphViewer',
@@ -230,7 +249,7 @@ export default {
       gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0)
 
       const u = {}
-      ;['from', 'to', 'progress', 'resolution', 'fromAspect', 'toAspect', 'scale', 'direction', 'edge', 'drift', 'bg', 'fromBox', 'toBox']
+      ;['from', 'to', 'progress', 'resolution', 'fromAspect', 'toAspect', 'scale', 'direction', 'edge', 'drift', 'bg', 'fromBox', 'toBox', 'octaves']
         .forEach(n => { u[n] = gl.getUniformLocation(program, 'u_' + n) })
       gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true)
 
@@ -244,7 +263,10 @@ export default {
       let from = this.index
       let to = this.index
       let progress = 1
-      let startedAt = 0
+      let elapsed = 0
+      let lastFrame = 0
+      let frameTotal = 0
+      let frameCount = 0
       let direction = 1
       let pending = null
       // Pressed again while a dissolve was still running: the next dissolve catches up faster.
@@ -253,24 +275,34 @@ export default {
 
       const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
+      // Decoded images waiting to become textures. Uploading blocks the page, so it only happens
+      // between dissolves, one image per frame.
+      const uploads = []
+      const upload = ({ i, img }) => {
+        if (cache.get(i) !== 'loading') return
+        const tex = gl.createTexture()
+        gl.bindTexture(gl.TEXTURE_2D, tex)
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, shrink(img))
+        // Photos aren't powers of two, so WebGL1 only allows clamp + linear here.
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE)
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE)
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR)
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR)
+        cache.set(i, { tex, aspect: img.naturalWidth / Math.max(img.naturalHeight, 1) })
+        dirty = true
+      }
+
       const ensure = i => {
         if (i < 0 || i >= vm.frames.length || cache.has(i)) return
         cache.set(i, 'loading')
         const img = new Image()
         img.crossOrigin = 'anonymous'
         img.decoding = 'async'
-        img.onload = () => {
-          if (disposed || cache.get(i) !== 'loading') return
-          const tex = gl.createTexture()
-          gl.bindTexture(gl.TEXTURE_2D, tex)
-          gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, shrink(img))
-          // Photos aren't powers of two, so WebGL1 only allows clamp + linear here.
-          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE)
-          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE)
-          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR)
-          gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR)
-          cache.set(i, { tex, aspect: img.naturalWidth / Math.max(img.naturalHeight, 1) })
-          dirty = true
+        img.onload = async () => {
+          // Decode off the main thread first; otherwise the upload does it and blocks the page.
+          // A failed decode here just leaves that work to the upload.
+          try { await img.decode() } catch { /* see above */ }
+          if (!disposed && cache.get(i) === 'loading') uploads.push({ i, img })
         }
         img.onerror = () => {
           if (disposed) return
@@ -322,10 +354,15 @@ export default {
         const dpr = Math.min(window.devicePixelRatio || 1, 2)
         const w = Math.round(canvas.clientWidth * dpr)
         const h = Math.round(canvas.clientHeight * dpr)
-        if (!w || !h || (canvas.width === w && canvas.height === h)) return
-        canvas.width = w
-        canvas.height = h
-        gl.viewport(0, 0, w, h)
+        if (!w || !h) return
+        const cap = PIXEL_CAPS[slowDissolves]
+        const k = cap ? Math.min(1, Math.sqrt(cap / (w * h))) : 1
+        const width = Math.round(w * k)
+        const height = Math.round(h * k)
+        if (canvas.width === width && canvas.height === height) return
+        canvas.width = width
+        canvas.height = height
+        gl.viewport(0, 0, width, height)
         dirty = true
       }
       const observer = new ResizeObserver(resize)
@@ -345,6 +382,9 @@ export default {
 
       const frame = now => {
         raf = requestAnimationFrame(frame)
+        const step = lastFrame ? now - lastFrame : 0
+        lastFrame = now
+        if (progress >= 1 && uploads.length) upload(uploads.shift())
         // A requested frame starts once the running dissolve has finished (cutting one off
         // mid-way makes the picture jump) and its texture is in. Rapid presses only keep the
         // latest request, and that catch-up dissolve runs faster.
@@ -354,13 +394,28 @@ export default {
           to = pending
           pending = null
           progress = 0
-          startedAt = now
+          elapsed = 0
+          frameTotal = 0
+          frameCount = 0
           span = reduced ? 0 : Math.max(vm.duration, 1) * (queued ? 0.6 : 1)
           queued = false
           refresh(to)
         }
         if (progress < 1) {
-          progress = span === 0 ? 1 : easeInOutQuint((now - startedAt) / span)
+          if (span === 0) {
+            progress = 1
+          } else {
+            elapsed += Math.min(step, span / MIN_STEPS)
+            frameTotal += step
+            frameCount++
+            progress = (slowDissolves ? easeGentle : easeInOutQuint)(elapsed / span)
+            // An average over 1000ms means a hidden tab, not a slow machine.
+            const average = frameTotal / frameCount
+            if (progress >= 1 && slowDissolves < 3 && average > SLOW_FRAME_MS && average < 1000) {
+              slowDissolves++
+              resize()
+            }
+          }
           dirty = true
         }
         const fromE = loaded(from) || loaded(to)
@@ -379,6 +434,7 @@ export default {
         gl.uniform1f(u.direction, direction)
         gl.uniform1f(u.edge, Math.max(vm.edge, 0.001))
         gl.uniform1f(u.drift, vm.drift)
+        gl.uniform1f(u.octaves, slowDissolves ? 3 : 5)
         gl.uniform3f(u.bg, vm.background[0], vm.background[1], vm.background[2])
         gl.uniform2fv(u.fromBox, containBox(fromE.aspect))
         gl.uniform2fv(u.toBox, containBox(toE.aspect))

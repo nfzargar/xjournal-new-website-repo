@@ -282,10 +282,20 @@ const UNIFORMS = {
   timeScale: 1.658
 }
 
+// How many pixels the shader draws. Lowered below when a machine can't keep up, and kept across
+// page changes so the yellow zap starts at the level the landing page already settled on.
+let maxPixels = 2000000
+let blurOn = true
+const MIN_PIXELS = 500000
+const SLOW_FRAME_MS = 40
+const SAMPLE_FRAMES = 30
+
 export default {
   name: 'GrainGradient',
   props: {
-    options: { type: Object, default: () => ({}) }
+    options: { type: Object, default: () => ({}) },
+    // The zap turns this off: its own wipe animation would read as a slow machine.
+    adaptive: { type: Boolean, default: true }
   },
   mounted () {
     this.teardown = this.start()
@@ -338,7 +348,7 @@ export default {
       gl.uniform3fv(u.colors, new Float32Array(flat))
       gl.uniform4f(u.shape, U.scale, U.intensity, U.paramA, U.warp)
       gl.uniform4f(u.surface, U.detail, U.contrast, U.brightness, U.saturation)
-      gl.uniform4f(u.finish, U.hue, U.vignette, U.blur, U.grain)
+      gl.uniform4f(u.finish, U.hue, U.vignette, blurOn ? U.blur : 0, U.grain)
       gl.uniform4f(u.transform, U.seed, U.rotate, U.drift, U.oklab)
       gl.uniform4f(u.space, U.offsetX, U.offsetY, 0, 0)
       gl.uniform4f(u.cursor, 0, 0, U.cursorStrength, U.cursorRadius)
@@ -388,7 +398,7 @@ export default {
         const rawW = Math.max(1, Math.round(rect.width * dpr))
         const rawH = Math.max(1, Math.round(rect.height * dpr))
         // cap the pixel count so large screens stay smooth
-        const k = Math.min(1, Math.sqrt(2000000 / (rawW * rawH)))
+        const k = Math.min(1, Math.sqrt(maxPixels / (rawW * rawH)))
         const w = Math.max(1, Math.round(rawW * k))
         const h = Math.max(1, Math.round(rawH * k))
         if (canvas.width !== w || canvas.height !== h) {
@@ -398,10 +408,41 @@ export default {
         }
       }
 
+      // Average the frame time over short windows. The first window is skipped because the page is
+      // still loading, and it takes two slow windows in a row to change anything, so one hiccup
+      // costs nothing. Then drop the blur (five times the work for a barely visible softening)
+      // and after that lower the resolution.
+      let sampleTotal = 0
+      let sampleCount = 0
+      let warmedUp = false
+      let slowWindows = 0
+      const adapt = ms => {
+        if (!this.adaptive || ms > 1000) return // over 1000ms: waking from a hidden tab or sleep
+        sampleTotal += ms
+        if (++sampleCount < SAMPLE_FRAMES) return
+        const slow = sampleTotal / sampleCount > SLOW_FRAME_MS
+        sampleTotal = 0
+        sampleCount = 0
+        if (!warmedUp) {
+          warmedUp = true
+          return
+        }
+        slowWindows = slow ? slowWindows + 1 : 0
+        if (slowWindows < 2) return
+        slowWindows = 0
+        if (blurOn) {
+          blurOn = false
+          gl.uniform4f(u.finish, U.hue, U.vignette, 0, U.grain)
+        } else if (maxPixels > MIN_PIXELS) {
+          maxPixels = Math.max(MIN_PIXELS, maxPixels * 0.6)
+        }
+      }
+
       const render = now => {
         raf = 0
         if (disposed || !visible) return
         resize()
+        if (lastNow !== null) adapt(now - lastNow)
         const dt = lastNow === null ? 0 : Math.min((now - lastNow) / 1000, 0.1)
         lastNow = now
         const follow = 1 - Math.exp(-14 * dt)

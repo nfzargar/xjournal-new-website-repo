@@ -1,6 +1,6 @@
 <template>
   <div v-if="phase !== 'idle'" class="zap" :class="'zap--' + phase">
-    <GrainGradient class="zap__bg" :options="LOOK" />
+    <GrainGradient class="zap__bg" :options="LOOK" :adaptive="false" />
   </div>
 </template>
 
